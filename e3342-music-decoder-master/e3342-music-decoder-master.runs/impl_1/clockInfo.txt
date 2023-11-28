@@ -1,6 +1,6 @@
 -------------------------------------
 | Tool Version : Vivado v.2023.2
-| Date         : Wed Nov 29 01:37:54 2023
+| Date         : Wed Nov 29 02:09:31 2023
 | Host         : Arnav-G15
 | Design       : design_1
 | Device       : xc7a35t-cpg236-1--
