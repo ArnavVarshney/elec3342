@@ -6,4 +6,21 @@ Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.symb_det [symb_det_default]
+Compiling architecture behavioral of entity xil_defaultlib.mcdecoder [mcdecoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.myuart [myuart_default]
+Compiling architecture behavioral of entity xil_defaultlib.sim_top [sim_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.sim_top_tb
+Built simulation snapshot sim_top_tb_behav

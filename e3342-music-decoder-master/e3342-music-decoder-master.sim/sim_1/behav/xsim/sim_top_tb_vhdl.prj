@@ -1,8 +1,6 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
-"../../../../e3342-music-decoder-master.srcs/sources_1/imports/rtl/dpop.vhd" \
-"../../../../e3342-music-decoder-master.srcs/sources_1/imports/rtl/mucodec.vhd" \
-"../../../../e3342-music-decoder-master.srcs/sources_1/imports/rtl/musiccode_top.vhd" \
+"../../../../e3342-music-decoder-master.srcs/sources_1/imports/rtl/mcdecoder.vhd" \
 "../../../../e3342-music-decoder-master.srcs/sources_1/imports/rtl/myuart.vhd" \
 "../../../../e3342-music-decoder-master.srcs/sources_1/imports/rtl/sim_top.vhd" \
 "../../../../e3342-music-decoder-master.srcs/sources_1/imports/rtl/symb_det.vhd" \

@@ -2926,3 +2926,1740 @@ dismissDialog("Program Device"); // aP (dialog23)
 dismissDialog("Program Device"); // bq (Program Device Progress)
 // Elapsed time: 10 seconds
 selectCodeEditor("mcdecoder.vhd", 676, 378); // ad (mcdecoder.vhd)
+// Elapsed time: 68 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // j (PAResourceTtoZ.TaskBanner_CLOSE)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Confirm Close"); // u (dialog24)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw_manager 
+dismissDialog("Close Hardware Manager"); // bq (Close Hardware Manager Progress)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL]", 1, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // g (PAResourceEtoH.FileSetView_TABBED_PANE, SourcesView)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sys_top(Behavioral) (sys_top.vhd), symb_det_inst : symb_det(rtl) (symb_det.vhd)]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sys_top(Behavioral) (sys_top.vhd), symb_det_inst : symb_det(rtl) (symb_det.vhd)]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("symb_det.vhd", 326, 212); // ad (symb_det.vhd)
+typeControlKey((HResource) null, "symb_det.vhd", 'c'); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 288, 315); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 725, 396); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 725, 396, false, false, false, false, true); // ad (symb_det.vhd) - Double Click
+selectCodeEditor("symb_det.vhd", 725, 396, false, false, false, true, false); // ad (symb_det.vhd) - Popup Trigger
+selectCodeEditor("symb_det.vhd", 287, 470); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 287, 470, false, false, false, false, true); // ad (symb_det.vhd) - Double Click
+selectCodeEditor("symb_det.vhd", 287, 470, false, false, false, true, false); // ad (symb_det.vhd) - Popup Trigger
+selectMenuItem(PAResourceOtoP.PACodeEditor_FIND_IN_FILES, "Find in Files..."); // ao (PAResourceOtoP.PACodeEditor_FIND_IN_FILES)
+selectComboBox("pa.FindAndReplaceAllDialog_FIND_COMBO_BOX", "St_IDEL", -1); // JComboBox (pa.FindAndReplaceAllDialog_FIND_COMBO_BOX)
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_CLOSE, "Close"); // h (PAResourceEtoH.FindAndReplaceAllDialog_CLOSE)
+selectCodeEditor("symb_det.vhd", 298, 467, false, false, false, true, false); // ad (symb_det.vhd) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_REPLACE_TEXT, "Replace..."); // ao (RDIResource.HInputHandler_REPLACE_TEXT)
+selectComboBox("FindAndReplaceDialog.F_Replace with:", "St_IDLE", -1); // JComboBox (FindAndReplaceDialog.F_Replace with:)
+selectButton("FindAndReplaceDialog.F_Find", "Find"); // JButton (FindAndReplaceDialog.F_Find)
+selectCodeEditor("symb_det.vhd", 526, 353); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 685, 135); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 685, 136, false, false, false, false, true); // ad (symb_det.vhd) - Double Click
+selectCodeEditor("symb_det.vhd", 685, 136, false, false, false, true, false); // ad (symb_det.vhd) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_REPLACE_TEXT, "Replace..."); // ao (RDIResource.HInputHandler_REPLACE_TEXT)
+selectComboBox("FindAndReplaceDialog.F_Replace with:", "St_LISTENING", -1); // JComboBox (FindAndReplaceDialog.F_Replace with:)
+selectButton("FindAndReplaceDialog.F_Find", "Find"); // JButton (FindAndReplaceDialog.F_Find)
+selectCodeEditor("symb_det.vhd", 949, 137); // ad (symb_det.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 06m:50s
+// Elapsed Time for: 'L.f': 06m:52s
+// Elapsed time: 18 seconds
+selectCodeEditor("symb_det.vhd", 408, 200); // ad (symb_det.vhd)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sys_top(Behavioral) (sys_top.vhd), mcdecoder_inst : mcdecoder(rtl) (mcdecoder.vhd)]", 6, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sys_top(Behavioral) (sys_top.vhd), mcdecoder_inst : mcdecoder(rtl) (mcdecoder.vhd)]", 6, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("mcdecoder.vhd", 950, 419); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 952, 419, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+selectCodeEditor("mcdecoder.vhd", 952, 419, false, false, false, true, false); // ad (mcdecoder.vhd) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_REPLACE_TEXT, "Replace..."); // ao (RDIResource.HInputHandler_REPLACE_TEXT)
+selectComboBox("FindAndReplaceDialog.F_Replace with:", "St_ENDING", -1); // JComboBox (FindAndReplaceDialog.F_Replace with:)
+selectButton("FindAndReplaceDialog.F_Find", "Find"); // JButton (FindAndReplaceDialog.F_Find)
+selectCodeEditor("mcdecoder.vhd", 562, 348); // ad (mcdecoder.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sys_top(Behavioral) (sys_top.vhd), myuart_inst : myuart(rtl) (myuart.vhd)]", 7, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sys_top(Behavioral) (sys_top.vhd), myuart_inst : myuart(rtl) (myuart.vhd)]", 7, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed Time for: 'L.f': 07m:40s
+// Elapsed Time for: 'L.f': 07m:42s
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myuart.vhd", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 11 seconds
+selectCodeEditor("myuart.vhd", 219, 213); // ad (myuart.vhd)
+selectCodeEditor("myuart.vhd", 250, 158); // ad (myuart.vhd)
+selectCodeEditor("myuart.vhd", 274, 214); // ad (myuart.vhd)
+typeControlKey((HResource) null, "myuart.vhd", 'c'); // ad (myuart.vhd)
+selectCodeEditor("myuart.vhd", 534, 332); // ad (myuart.vhd)
+typeControlKey((HResource) null, "myuart.vhd", 'v'); // ad (myuart.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 08m:32s
+// Elapsed Time for: 'L.f': 08m:34s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/utils_1/imports/synth_1/sys_top.dcp with file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/sys_top.dcp 
+dismissDialog("Resetting Runs"); // bq (Resetting Runs Progress)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: [Wed Nov 29 02:14:20 2023] Launched synth_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/runme.log [Wed Nov 29 02:14:20 2023] Launched impl_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 142 seconds
+selectCodeEditor("myuart.vhd", 390, 509); // ad (myuart.vhd)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 23, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ao (PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, auto_connect_target_menu)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// TclEventType: HW_SESSION_OPEN
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// Tcl Message: open_hw_manager 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bq (Open Hardware Manager Progress)
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output: ECHO is off. ECHO is off.  ****** Xilinx hw_server v2023.2   **** Build date : Oct 13 2023 at 21:31:40     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0 INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output: ECHO is off. ECHO is off.   ******** Xilinx cs_server v2023.2.0   ****** Build date   : Oct 10 2023-12:01:56     **** Build number : 2023.2.1696910516       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.       ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.    
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B035A6A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/sys_top.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bq (Auto Connect Progress)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 24, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ao (xc7a35t_0)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aP (dialog32)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/sys_top.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bq (Program Device Progress)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true, false, false, false, false, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Double Click - Node
+// Elapsed time: 11 seconds
+selectCodeEditor("myuart.vhd", 595, 311); // ad (myuart.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("symb_det.vhd", 377, 245); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 386, 242); // ad (symb_det.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("mcdecoder.vhd", 377, 154); // ad (mcdecoder.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myuart.vhd", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("symb_det.vhd", 469, 256); // ad (symb_det.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("mcdecoder.vhd", 380, 242); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 429, 228); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 297, 69); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 295, 72); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 403, 184); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 12m:09s
+selectCodeEditor("mcdecoder.vhd", 153, 396); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 153, 394, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+selectCodeEditor("mcdecoder.vhd", 160, 393, false, false, false, true, false); // ad (mcdecoder.vhd) - Popup Trigger
+// Elapsed Time for: 'L.f': 12m:11s
+selectMenuItem(RDIResource.HInputHandler_REPLACE_TEXT, "Replace..."); // ao (RDIResource.HInputHandler_REPLACE_TEXT)
+selectComboBox("FindAndReplaceDialog.F_Replace with:", "Behavioral", -1); // JComboBox (FindAndReplaceDialog.F_Replace with:)
+selectButton("FindAndReplaceDialog.F_Find", "Find"); // JButton (FindAndReplaceDialog.F_Find)
+selectCodeEditor("mcdecoder.vhd", 476, 402); // ad (mcdecoder.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myuart.vhd", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed Time for: 'L.f': 12m:21s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed Time for: 'L.f': 12m:23s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("mcdecoder.vhd", 179, 378); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 179, 378, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("symb_det.vhd", 138, 492); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 138, 492, false, false, false, false, true); // ad (symb_det.vhd) - Double Click
+selectCodeEditor("symb_det.vhd", 152, 491); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 152, 491, false, false, false, false, true); // ad (symb_det.vhd) - Double Click
+selectCodeEditor("symb_det.vhd", 152, 491, false, false, false, true, false); // ad (symb_det.vhd) - Popup Trigger
+selectMenuItem(PAResourceOtoP.PACodeEditor_REPLACE_IN_FILES, "Replace in Files..."); // ao (PAResourceOtoP.PACodeEditor_REPLACE_IN_FILES)
+selectComboBox("pa.FindAndReplaceAllDialog_FIND_COMBO_BOX", "rtl", -1); // JComboBox (pa.FindAndReplaceAllDialog_FIND_COMBO_BOX)
+selectComboBox("pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX", "Behavioral", -1); // JComboBox (pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX)
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_FIND, "Find"); // f (PAResourceEtoH.FindAndReplaceAllDialog_FIND)
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_CLOSE, "Close"); // h (PAResourceEtoH.FindAndReplaceAllDialog_CLOSE)
+// 'e' command handler elapsed time: 3 seconds
+selectCodeEditor("symb_det.vhd", 166, 497, false, false, false, true, false); // ad (symb_det.vhd) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_REPLACE_TEXT, "Replace..."); // ao (RDIResource.HInputHandler_REPLACE_TEXT)
+selectComboBox("FindAndReplaceDialog.F_Replace with:", "Behavioral", -1); // JComboBox (FindAndReplaceDialog.F_Replace with:)
+selectButton("FindAndReplaceDialog.F_Find", "Find"); // JButton (FindAndReplaceDialog.F_Find)
+selectCodeEditor("symb_det.vhd", 391, 372); // ad (symb_det.vhd)
+typeControlKey((HResource) null, "symb_det.vhd", 'c'); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 436, 162); // ad (symb_det.vhd)
+typeControlKey((HResource) null, "symb_det.vhd", 'v'); // ad (symb_det.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 12m:43s
+// Elapsed Time for: 'L.f': 12m:45s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("mcdecoder.vhd", 312, 218); // ad (mcdecoder.vhd)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 17, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/utils_1/imports/synth_1/sys_top.dcp with file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/sys_top.dcp 
+dismissDialog("Resetting Runs"); // bq (Resetting Runs Progress)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: [Wed Nov 29 02:18:32 2023] Launched synth_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/runme.log [Wed Nov 29 02:18:32 2023] Launched impl_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 73 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myuart.vhd", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 20, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ao (xc7a35t_0)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aP (dialog38)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/sys_top.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bq (Program Device Progress)
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true, false, false, false, false, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myuart.vhd", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("myuart.vhd", 148, 372); // ad (myuart.vhd)
+selectCodeEditor("myuart.vhd", 148, 372, false, false, false, false, true); // ad (myuart.vhd) - Double Click
+selectCodeEditor("myuart.vhd", 156, 369); // ad (myuart.vhd)
+selectCodeEditor("myuart.vhd", 156, 369, false, false, false, false, true); // ad (myuart.vhd) - Double Click
+selectCodeEditor("myuart.vhd", 156, 369, false, false, false, true, false); // ad (myuart.vhd) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_REPLACE_TEXT, "Replace..."); // ao (RDIResource.HInputHandler_REPLACE_TEXT)
+typeControlKey(null, null, 'z');
+selectComboBox("FindAndReplaceDialog.F_Replace with:", "Behavioral", -1); // JComboBox (FindAndReplaceDialog.F_Replace with:)
+selectButton("FindAndReplaceDialog.F_Find", "Find"); // JButton (FindAndReplaceDialog.F_Find)
+selectCodeEditor("myuart.vhd", 401, 413); // ad (myuart.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed Time for: 'L.f': 15m:31s
+selectCodeEditor("symb_det.vhd", 114, 629); // ad (symb_det.vhd)
+// Elapsed Time for: 'L.f': 15m:33s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myuart.vhd", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("myuart.vhd", 591, 349); // ad (myuart.vhd)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 17, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/utils_1/imports/synth_1/sys_top.dcp with file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/sys_top.dcp 
+dismissDialog("Resetting Runs"); // bq (Resetting Runs Progress)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: [Wed Nov 29 02:21:21 2023] Launched synth_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/runme.log [Wed Nov 29 02:21:21 2023] Launched impl_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 112 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 20, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ao (xc7a35t_0)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aP (dialog41)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/sys_top.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'D' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bq (Program Device Progress)
+// Elapsed time: 41 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myuart.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("myuart.vhd", 418, 135); // ad (myuart.vhd)
+typeControlKey((HResource) null, "myuart.vhd", 'v'); // ad (myuart.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 18m:16s
+selectCodeEditor("myuart.vhd", 82, 588); // ad (myuart.vhd)
+// Elapsed Time for: 'L.f': 18m:18s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 17, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/utils_1/imports/synth_1/sys_top.dcp with file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/sys_top.dcp 
+dismissDialog("Resetting Runs"); // bq (Resetting Runs Progress)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: [Wed Nov 29 02:24:05 2023] Launched synth_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/runme.log [Wed Nov 29 02:24:05 2023] Launched impl_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true, false, false, false, false, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Double Click - Node
+// Elapsed time: 15 seconds
+selectCodeEditor("myuart.vhd", 367, 473); // ad (myuart.vhd)
+typeControlKey(null, null, 'z');
+selectCodeEditor("myuart.vhd", 567, 199); // ad (myuart.vhd)
+typeControlKey(null, null, 'z');
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: RUN_STEP_COMPLETED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myuart.vhd", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 20, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ao (xc7a35t_0)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aP (dialog42)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/sys_top.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bq (Program Device Progress)
+// Elapsed time: 89 seconds
+selectCodeEditor("myuart.vhd", 851, 483); // ad (myuart.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,738 MB. GUI used memory: 160 MB. Current time: 11/29/23, 2:34:58 AM CST
+// Elapsed time: 711 seconds
+selectCodeEditor("myuart.vhd", 369, 129); // ad (myuart.vhd)
+typeControlKey((HResource) null, "myuart.vhd", 'v'); // ad (myuart.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 17, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Elapsed Time for: 'L.f': 33m:27s
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/utils_1/imports/synth_1/sys_top.dcp with file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/sys_top.dcp 
+dismissDialog("Resetting Runs"); // bq (Resetting Runs Progress)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Nov 29 02:39:13 2023] Launched synth_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/runme.log [Wed Nov 29 02:39:13 2023] Launched impl_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bq (Generate Bitstream Progress)
+// Elapsed Time for: 'L.f': 33m:29s
+// TclEventType: RUN_STATUS_CHANGE
+selectCodeEditor("myuart.vhd", 223, 389); // ad (myuart.vhd)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true, false, false, false, false, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Double Click - Node
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 97 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 20, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ao (xc7a35t_0)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aP (dialog43)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/sys_top.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bq (Program Device Progress)
+// Elapsed time: 152 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 34 seconds
+selectCodeEditor("mcdecoder.vhd", 846, 505); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 286, 386); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 298, 391); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 286, 383); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 364, 420); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 364, 419); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 417, 429); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 285, 389); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 306, 379); // ad (mcdecoder.vhd)
+// Elapsed time: 16 seconds
+selectCodeEditor("mcdecoder.vhd", 288, 92); // ad (mcdecoder.vhd)
+// Elapsed time: 57 seconds
+selectCodeEditor("mcdecoder.vhd", 852, 401); // ad (mcdecoder.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 11 seconds
+selectCodeEditor("symb_det.vhd", 844, 365); // ad (symb_det.vhd)
+// Elapsed time: 95 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myuart.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("mcdecoder.vhd", 362, 343); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 823, 440); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 1125, 435); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 369, 373); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 530, 422); // ad (mcdecoder.vhd)
+// Elapsed time: 462 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myuart.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 27 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 41 seconds
+selectCodeEditor("symb_det.vhd", 734, 497); // ad (symb_det.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myuart.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 110 seconds
+selectCodeEditor("myuart.vhd", 400, 484); // ad (myuart.vhd)
+typeControlKey((HResource) null, "myuart.vhd", 'v'); // ad (myuart.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 53m:27s
+// Elapsed Time for: 'L.f': 53m:29s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 17, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/utils_1/imports/synth_1/sys_top.dcp with file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/sys_top.dcp 
+dismissDialog("Resetting Runs"); // bq (Resetting Runs Progress)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: [Wed Nov 29 02:59:15 2023] Launched synth_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/runme.log [Wed Nov 29 02:59:15 2023] Launched impl_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true, false, false, false, false, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Double Click - Node
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 97 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 20, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ao (xc7a35t_0)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aP (dialog44)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/sys_top.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bq (Program Device Progress)
+// Elapsed time: 30 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 938, 96); // cD (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true, false, false, false, false, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("symb_det.vhd", 382, 210); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 382, 210, false, false, false, false, true); // ad (symb_det.vhd) - Double Click
+selectCodeEditor("symb_det.vhd", 391, 213); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 391, 213, false, false, false, false, true); // ad (symb_det.vhd) - Double Click
+selectCodeEditor("symb_det.vhd", 404, 216); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 404, 216, false, false, false, false, true); // ad (symb_det.vhd) - Double Click
+selectCodeEditor("symb_det.vhd", 391, 264); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 402, 198); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 402, 198, false, false, false, false, true); // ad (symb_det.vhd) - Double Click
+selectCodeEditor("symb_det.vhd", 401, 205); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 401, 205, false, false, false, false, true); // ad (symb_det.vhd) - Double Click
+selectCodeEditor("symb_det.vhd", 406, 210); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 406, 211, false, false, false, false, true); // ad (symb_det.vhd) - Double Click
+selectCodeEditor("symb_det.vhd", 408, 219); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 408, 219, false, false, false, false, true); // ad (symb_det.vhd) - Double Click
+// Elapsed time: 79 seconds
+selectCodeEditor("symb_det.vhd", 405, 261); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 402, 262, false, false, false, false, true); // ad (symb_det.vhd) - Double Click
+selectCodeEditor("symb_det.vhd", 399, 312); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 399, 312, false, false, false, false, true); // ad (symb_det.vhd) - Double Click
+selectCodeEditor("symb_det.vhd", 394, 361); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 394, 361, false, false, false, false, true); // ad (symb_det.vhd) - Double Click
+selectCodeEditor("symb_det.vhd", 391, 405); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 391, 405, false, false, false, false, true); // ad (symb_det.vhd) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("symb_det.vhd", 393, 459); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 393, 459, false, false, false, false, true); // ad (symb_det.vhd) - Double Click
+selectCodeEditor("symb_det.vhd", 390, 515); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 390, 515, false, false, false, false, true); // ad (symb_det.vhd) - Double Click
+selectCodeEditor("symb_det.vhd", 396, 515); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 396, 515, false, false, false, false, true); // ad (symb_det.vhd) - Double Click
+selectCodeEditor("symb_det.vhd", 396, 557); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 396, 557, false, false, false, false, true); // ad (symb_det.vhd) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 57m:44s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 18, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 17, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/utils_1/imports/synth_1/sys_top.dcp with file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/sys_top.dcp 
+dismissDialog("Resetting Runs"); // bq (Resetting Runs Progress)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: [Wed Nov 29 03:03:31 2023] Launched synth_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/runme.log [Wed Nov 29 03:03:31 2023] Launched impl_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed Time for: 'L.f': 57m:48s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true, false, false, false, false, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Double Click - Node
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,738 MB. GUI used memory: 168 MB. Current time: 11/29/23, 3:05:01 AM CST
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 90 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 20, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ao (xc7a35t_0)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aP (dialog45)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/sys_top.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bq (Program Device Progress)
+// Elapsed time: 38 seconds
+selectCodeEditor("symb_det.vhd", 1284, 143); // ad (symb_det.vhd)
+// Elapsed time: 31 seconds
+selectCodeEditor("symb_det.vhd", 71, 202); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 342, 393); // ad (symb_det.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("mcdecoder.vhd", 213, 82); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 361, 473); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 301, 209); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 301, 209, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+selectCodeEditor("mcdecoder.vhd", 374, 233); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 374, 233, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+selectCodeEditor("mcdecoder.vhd", 382, 226); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 382, 226, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+// Elapsed time: 29 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // ag (PAResourceItoN.MainMenuMgr_VIEW, View)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // ag (PAResourceItoN.MainMenuMgr_VIEW, View)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // ag (RDIResource.MainWinMenuMgr_LAYOUT, Layout)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // ag (RDIResource.MainWinMenuMgr_LAYOUT, Layout)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // ag (PAResourceItoN.MainMenuMgr_WINDOW, Window)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // ag (PAResourceItoN.MainMenuMgr_WINDOW, Window)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // ag (PAResourceItoN.MainMenuMgr_REPORTS, Reports)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // ag (PAResourceItoN.MainMenuMgr_REPORTS, Reports)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ag (PAResourceItoN.MainMenuMgr_FLOW, Flow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ag (PAResourceItoN.MainMenuMgr_FLOW, Flow)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ag (PAResourceItoN.MainMenuMgr_FLOW, Flow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ag (PAResourceItoN.MainMenuMgr_FLOW, Flow)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ag (PAResourceItoN.MainMenuMgr_FLOW, Flow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ag (PAResourceItoN.MainMenuMgr_FLOW, Flow)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // ag (PAResourceItoN.MainMenuMgr_EDIT, Edit)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // ag (PAResourceItoN.MainMenuMgr_EDIT, Edit)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ag (PAResourceItoN.MainMenuMgr_FILE, File)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // al (PAResourceItoN.MainMenuMgr_PROJECT, Project)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // al (PAResourceItoN.MainMenuMgr_CHECKPOINT, Checkpoint)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // al (PAResourceItoN.MainMenuMgr_IP, IP)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // al (PAResourceItoN.MainMenuMgr_TEXT_EDITOR, Text Editor)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // al (PAResourceItoN.MainMenuMgr_IMPORT, Import)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // al (PAResourceItoN.MainMenuMgr_EXPORT, Export)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // al (PAResourceItoN.MainMenuMgr_IMPORT, Import)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // al (PAResourceItoN.MainMenuMgr_TEXT_EDITOR, Text Editor)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // al (PAResourceItoN.MainMenuMgr_IP, IP)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ag (PAResourceItoN.MainMenuMgr_FILE, File)
+selectCodeEditor("mcdecoder.vhd", 718, 218); // ad (mcdecoder.vhd)
+// Elapsed time: 23 seconds
+selectCodeEditor("mcdecoder.vhd", 279, 455); // ad (mcdecoder.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 311 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("mcdecoder.vhd", 319, 286); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 362, 464); // ad (mcdecoder.vhd)
+// Elapsed time: 340 seconds
+selectCodeEditor("mcdecoder.vhd", 319, 240); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 319, 240, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+// Elapsed time: 53 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "001010"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "001010"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "001010001110"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "001110"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "001110"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 488, 436); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:14m:28s
+selectButton(RDIResource.HCodeEditor_CLOSE, (String) null); // j (RDIResource.HCodeEditor_CLOSE)
+// Elapsed Time for: 'L.f': 01h:14m:30s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/utils_1/imports/synth_1/sys_top.dcp with file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/sys_top.dcp 
+dismissDialog("Resetting Runs"); // bq (Resetting Runs Progress)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: [Wed Nov 29 03:20:17 2023] Launched synth_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/runme.log [Wed Nov 29 03:20:17 2023] Launched impl_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/runme.log 
+selectCodeEditor("mcdecoder.vhd", 529, 504); // ad (mcdecoder.vhd)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 159 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 24, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ao (xc7a35t_0)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aP (dialog46)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/sys_top.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bq (Program Device Progress)
+// Elapsed time: 29 seconds
+selectCodeEditor("mcdecoder.vhd", 248, 20); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 413, 259); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 323, 275); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+// Elapsed time: 14 seconds
+selectCodeEditor("mcdecoder.vhd", 523, 376); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:18m:10s
+// Elapsed Time for: 'L.f': 01h:18m:12s
+// Elapsed time: 11 seconds
+selectCodeEditor("mcdecoder.vhd", 168, 312); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 168, 312, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+// Elapsed time: 31 seconds
+selectCodeEditor("mcdecoder.vhd", 251, 95); // ad (mcdecoder.vhd)
+// Elapsed time: 14 seconds
+selectCodeEditor("mcdecoder.vhd", 575, 305); // ad (mcdecoder.vhd)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01001110"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'sim_top_tb' 
+// Tcl Message: "xvlog --incr --relax -prj sim_top_tb_vlog.prj" ECHO is off. ECHO is off. 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_top_tb_behav xil_defaultlib.sim_top_tb xil_defaultlib.glbl -log elaborate.log" ECHO is off. ECHO is off. 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "sim_top_tb_behav -key {Behavioral:sim_1:Functional:sim_top_tb} -tclbatch {sim_top_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,738 MB. GUI used memory: 205 MB. Current time: 11/29/23, 3:25:32 AM CST
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// Tcl Message: source sim_top_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// Tcl Message: # run 10ms 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,738 MB. GUI used memory: 189 MB. Current time: 11/29/23, 3:25:33 AM CST
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,738 MB. GUI used memory: 179 MB. Current time: 11/29/23, 3:25:54 AM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,738 MB. GUI used memory: 179 MB. Current time: 11/29/23, 3:26:02 AM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run: Time (s): cpu = 00:00:03 ; elapsed = 00:00:30 . Memory (MB): peak = 2984.043 ; gain = 0.000 xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:32 . Memory (MB): peak = 2984.043 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim_top_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 10ms 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:38 . Memory (MB): peak = 2984.043 ; gain = 0.000 
+// Elapsed Time for: 'h': 38s
+// 'd' command handler elapsed time: 38 seconds
+// Elapsed time: 38 seconds
+dismissDialog("Run Simulation"); // e (Run Simulation Progress)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// Elapsed time: 851 seconds
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 4"); // u (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer)
+selectButton(RDIResource.QuickHelp_HELP, (String) null); // j (RDIResource.QuickHelp_HELP)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // j (PAResourceTtoZ.TaskBanner_CLOSE)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - sim_top_tb", "DesignTask.SIMULATION");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+dismissDialog("Confirm Close"); // u (dialog47)
+// Tcl Message: close_sim 
+// Tcl Message: INFO: xsimkernel Simulation Memory Usage: 33160 KB (Peak: 33160 KB), Simulation CPU Usage: 26718 ms 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+dismissDialog("Close"); // bq (Close Progress)
+selectButton(RDIResource.HPopupTitle_CLOSE, (String) null); // j (RDIResource.HPopupTitle_CLOSE)
+selectCodeEditor("mcdecoder.vhd", 375, 255); // ad (mcdecoder.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myuart.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myuart.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 135 seconds
+selectCodeEditor("myuart.vhd", 285, 359); // ad (myuart.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("mcdecoder.vhd", 779, 353); // ad (mcdecoder.vhd)
+// Elapsed time: 70 seconds
+selectCodeEditor("mcdecoder.vhd", 214, 169); // ad (mcdecoder.vhd)
+// Elapsed time: 28 seconds
+selectCodeEditor("mcdecoder.vhd", 1364, 556); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 222, 458); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+// Elapsed time: 53 seconds
+selectCodeEditor("mcdecoder.vhd", 163, 113); // ad (mcdecoder.vhd)
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("symb_det.vhd", 472, 584); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 451, 345); // ad (symb_det.vhd)
+// Elapsed time: 109 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 10 seconds
+selectCodeEditor("mcdecoder.vhd", 75, 118); // ad (mcdecoder.vhd)
+// Elapsed time: 10 seconds
+selectCodeEditor("mcdecoder.vhd", 587, 403); // ad (mcdecoder.vhd)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01001100"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 536, 188); // ad (mcdecoder.vhd)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01001110"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 521, 735); // ad (mcdecoder.vhd)
+// Elapsed time: 13 seconds
+selectCodeEditor("mcdecoder.vhd", 560, 372); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 524, 417); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 399, 672); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 399, 672, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 409, 201); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 409, 201, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+// Elapsed time: 14 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01001110"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 656, 659); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 655, 662); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 672, 141); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 393, 139); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 393, 139, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 392, 591); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 392, 591, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 635, 584); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 626, 62); // ad (mcdecoder.vhd)
+// Elapsed time: 19 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01001010"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 505, 746); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 496, 761); // ad (mcdecoder.vhd)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01010001"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 494, 305); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 430, 762); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 430, 762, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 390, 312); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 390, 312, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+// Elapsed time: 13 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01001000"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 567, 233); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 556, 246); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 557, 257); // ad (mcdecoder.vhd)
+// Elapsed time: 22 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01001111", true); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01001111"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01001111"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// Elapsed time: 17 seconds
+selectCodeEditor("mcdecoder.vhd", 480, 216); // ad (mcdecoder.vhd)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01001000"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01001111", true); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01001111"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01001111"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// Elapsed time: 56 seconds
+selectCodeEditor("mcdecoder.vhd", 405, 174); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 405, 174, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+selectCodeEditor("mcdecoder.vhd", 405, 182); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 405, 182, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+typeControlKey(null, null, 'z');
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "0100100001001111"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+typeControlKey(null, null, 'z');
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01001000"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+typeControlKey(null, null, 'z');
+selectCodeEditor("mcdecoder.vhd", 395, 179); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 395, 180, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("mcdecoder.vhd", 519, 190); // ad (mcdecoder.vhd)
+// Elapsed Time for: 'L.f': 01h:46m:41s
+// Elapsed Time for: 'L.f': 01h:46m:43s
+// Elapsed time: 105 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myuart.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("symb_det.vhd", 175, 214); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 286, 174); // ad (symb_det.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 30 seconds
+selectCodeEditor("mcdecoder.vhd", 419, 197); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 419, 197, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+selectCodeEditor("mcdecoder.vhd", 501, 196); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 501, 196, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+selectCodeEditor("mcdecoder.vhd", 518, 198); // ad (mcdecoder.vhd)
+// Elapsed time: 26 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01000100"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 381, 286); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 381, 286, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+selectCodeEditor("mcdecoder.vhd", 531, 300); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 534, 277); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 410, 283); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 410, 283, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+// Elapsed time: 11 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01010101"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 477, 746); // ad (mcdecoder.vhd)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01000110", true); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 584, 614); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 566, 628); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 387, 634); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 387, 634, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 439, 640); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 439, 640, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,738 MB. GUI used memory: 178 MB. Current time: 11/29/23, 3:56:05 AM CST
+// Elapsed time: 17 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01010101"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 393, 148); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 393, 148, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 390, 143); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 390, 143, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+selectCodeEditor("mcdecoder.vhd", 498, 546); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 424, 534); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 424, 534, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:50m:48s
+// Elapsed Time for: 'L.f': 01h:50m:50s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/utils_1/imports/synth_1/sys_top.dcp with file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/sys_top.dcp 
+dismissDialog("Resetting Runs"); // bq (Resetting Runs Progress)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: [Wed Nov 29 03:56:38 2023] Launched synth_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/runme.log [Wed Nov 29 03:56:38 2023] Launched impl_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true, false, false, false, false, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Double Click - Node
+selectCodeEditor("mcdecoder.vhd", 216, 492); // ad (mcdecoder.vhd)
+// Elapsed time: 21 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01001100"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01000001"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 501, 245); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 498, 263); // ad (mcdecoder.vhd)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01010100"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 578, 432); // ad (mcdecoder.vhd)
+// Elapsed time: 11 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01001001"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 18 seconds
+selectCodeEditor("mcdecoder.vhd", 678, 388); // ad (mcdecoder.vhd)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01001001"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 502, 589); // ad (mcdecoder.vhd)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01000101"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 585, 351); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 586, 340); // ad (mcdecoder.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:52m:22s
+// Elapsed Time for: 'L.f': 01h:52m:24s
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 20, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ao (xc7a35t_0)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aP (dialog48)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/sys_top.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bq (Program Device Progress)
+// Elapsed time: 24 seconds
+selectCodeEditor("mcdecoder.vhd", 958, 886); // ad (mcdecoder.vhd)
+// Elapsed time: 269 seconds
+selectCodeEditor("mcdecoder.vhd", 220, 311); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:57m:41s
+// Elapsed Time for: 'L.f': 01h:57m:43s
+// Elapsed time: 10 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01000010"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01000010"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 361, 137); // ad (mcdecoder.vhd)
+// Elapsed time: 48 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "100101"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 325, 262); // ad (mcdecoder.vhd)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "100101"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 374, 286); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 374, 286, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+// Elapsed time: 11 seconds
+selectCodeEditor("mcdecoder.vhd", 310, 567); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 310, 567, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+selectCodeEditor("mcdecoder.vhd", 403, 586); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 403, 586, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+// Elapsed time: 26 seconds
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "100101"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "100101"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// Elapsed time: 10 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "100011"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 406, 420); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 406, 420, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+// Elapsed time: 36 seconds
+selectCodeEditor("mcdecoder.vhd", 513, 543); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 409, 345); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 408, 345, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+selectCodeEditor("mcdecoder.vhd", 212, 294); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 217, 291); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+// Elapsed time: 309 seconds
+selectCodeEditor("mcdecoder.vhd", 657, 330); // ad (mcdecoder.vhd)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "101010"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 423, 234); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 423, 234, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+selectCodeEditor("mcdecoder.vhd", 408, 272); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 375, 241); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 446, 241); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+// Elapsed time: 17 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "101011"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 367, 291); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 367, 291, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+// Elapsed time: 12 seconds
+typeControlKey(null, null, 'z');
+selectCodeEditor("mcdecoder.vhd", 445, 235); // ad (mcdecoder.vhd)
+// Elapsed time: 88 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "101001"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 431, 234); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 431, 234, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "101010"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 383, 294); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 383, 294, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "101011"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 434, 342); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 434, 342, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+// Elapsed time: 11 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "101101"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01011001"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01011001"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 326, 108); // ad (mcdecoder.vhd)
+// Elapsed time: 38 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "01011001"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 322, 117); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 322, 117, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+// Elapsed time: 22 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "101001"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "101001"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "101001"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "101010"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 412, 412); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 412, 412, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+// Elapsed time: 12 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "101011"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+typeControlKey(null, null, 'z');
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "101010"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+typeControlKey(null, null, 'z');
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+typeControlKey(null, null, 'z');
+selectCodeEditor("mcdecoder.vhd", 797, 388, false, true, false, false, false); // ad (mcdecoder.vhd) - Control Key
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 25 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "100110"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// Elapsed time: 21 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "00101110"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 450, 388); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 392, 464); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 392, 464, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+// Elapsed time: 120 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "100010"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("mcdecoder.vhd", 338, 292); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 338, 292, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+selectCodeEditor("mcdecoder.vhd", 417, 310); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 417, 310, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+selectCodeEditor("mcdecoder.vhd", 395, 316); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 395, 316, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 02h:13m:31s
+// Elapsed Time for: 'L.f': 02h:13m:33s
+// Elapsed time: 16 seconds
+typeControlKey(null, null, 'z');
+selectCodeEditor("mcdecoder.vhd", 396, 304); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 396, 304, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 02h:13m:51s
+selectCodeEditor("mcdecoder.vhd", 314, 239); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 314, 239, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+// Elapsed Time for: 'L.f': 02h:13m:53s
+// Elapsed time: 45 seconds
+selectCodeEditor("mcdecoder.vhd", 476, 357); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 389, 315); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 389, 315, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 02h:14m:43s
+// Elapsed Time for: 'L.f': 02h:14m:45s
+// Elapsed time: 19 seconds
+selectCodeEditor("mcdecoder.vhd", 407, 365); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 407, 365, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 02h:15m:04s
+// Elapsed Time for: 'L.f': 02h:15m:06s
+selectCodeEditor("mcdecoder.vhd", 386, 414); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 386, 414, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 402, 467); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 402, 467, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+// Elapsed time: 10 seconds
+selectCodeEditor("mcdecoder.vhd", 410, 467); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 410, 467, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+typeControlKey(null, null, 'z');
+selectCodeEditor("mcdecoder.vhd", 398, 461); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 398, 461, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+typeControlKey((HResource) null, "mcdecoder.vhd", 'v'); // ad (mcdecoder.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 02h:15m:34s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 17, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/utils_1/imports/synth_1/sys_top.dcp with file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/sys_top.dcp 
+dismissDialog("Resetting Runs"); // bq (Resetting Runs Progress)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: [Wed Nov 29 04:21:19 2023] Launched synth_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/runme.log [Wed Nov 29 04:21:19 2023] Launched impl_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed Time for: 'L.f': 02h:15m:36s
+// TclEventType: RUN_STATUS_CHANGE
+selectCodeEditor("mcdecoder.vhd", 493, 618); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 494, 267); // ad (mcdecoder.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // g (PAResourceQtoS.SyntheticaStateMonitor_CANCEL, Cancel)
+selectButton("OptionPane.button", "Do Not Cancel Process"); // JButton (OptionPane.button)
+// Elapsed Time for: 'L.f': 02h:15m:50s
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // g (PAResourceQtoS.SyntheticaStateMonitor_CANCEL, Cancel)
+selectButton("OptionPane.button", "Do Not Cancel Process"); // JButton (OptionPane.button)
+// Elapsed Time for: 'L.f': 02h:15m:54s
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // g (PAResourceQtoS.SyntheticaStateMonitor_CANCEL, Cancel)
+selectButton("OptionPane.button", "Cancel Process"); // JButton (OptionPane.button)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bq (Resetting Runs Progress)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Resetting Runs"); // bq (Resetting Runs Progress)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: [Wed Nov 29 04:21:48 2023] Launched synth_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/runme.log [Wed Nov 29 04:21:49 2023] Launched impl_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+selectCodeEditor("mcdecoder.vhd", 379, 340); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 217, 263); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+typeControlKey((HResource) null, "mcdecoder.vhd", 'c'); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 325, 387); // ad (mcdecoder.vhd)
+// Elapsed time: 16 seconds
+selectCodeEditor("mcdecoder.vhd", 579, 470); // ad (mcdecoder.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myuart.vhd", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 77 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 24, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ao (xc7a35t_0)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aP (dialog49)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/sys_top.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'D' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bq (Program Device Progress)
+// Elapsed time: 103 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myuart.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 27 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,738 MB. GUI used memory: 186 MB. Current time: 11/29/23, 4:26:08 AM CST
+// Elapsed time: 82 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myuart.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 66 seconds
+selectCodeEditor("myuart.vhd", 323, 895); // ad (myuart.vhd)
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true, false, false, false, false, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Double Click - Node
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "Properties", 1); // g (RDIResource.PropertiesView_TABBED_PANE)
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "General", 0); // g (RDIResource.PropertiesView_TABBED_PANE)
+// Elapsed time: 270 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 30 seconds
+selectCodeEditor("symb_det.vhd", 249, 274); // ad (symb_det.vhd)
+typeControlKey((HResource) null, "symb_det.vhd", 'v'); // ad (symb_det.vhd)
+typeControlKey(null, null, 'z');
+selectCodeEditor("symb_det.vhd", 952, 175); // ad (symb_det.vhd)
+typeControlKey((HResource) null, "symb_det.vhd", 'v'); // ad (symb_det.vhd)
+typeControlKey((HResource) null, "symb_det.vhd", 'v'); // ad (symb_det.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 02h:28m:26s
+// Elapsed Time for: 'L.f': 02h:28m:28s
+// Elapsed time: 11 seconds
+selectCodeEditor("symb_det.vhd", 498, 226); // ad (symb_det.vhd)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 17, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/utils_1/imports/synth_1/sys_top.dcp with file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/sys_top.dcp 
+dismissDialog("Resetting Runs"); // bq (Resetting Runs Progress)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: [Wed Nov 29 04:34:30 2023] Launched synth_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/runme.log [Wed Nov 29 04:34:30 2023] Launched impl_1... Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myuart.vhd", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 114 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 20, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ao (xc7a35t_0)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aP (dialog50)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/sys_top.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bq (Program Device Progress)
+// Elapsed time: 96 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 16 seconds
+selectCodeEditor("mcdecoder.vhd", 84, 296); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 353, 292); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 357, 294, false, false, false, false, true); // ad (mcdecoder.vhd) - Double Click
+selectCodeEditor("mcdecoder.vhd", 357, 294); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 341, 293); // ad (mcdecoder.vhd)
+selectCodeEditor("mcdecoder.vhd", 272, 298); // ad (mcdecoder.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("symb_det.vhd", 373, 319); // ad (symb_det.vhd)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 18 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // m (PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ao (PAResourceCommand.PACommandNames_PROGRAM_FPGA, program_fpga_menu)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aP (dialog51)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/sys_top.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bq (Program Device Progress)
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 24 seconds
+selectCodeEditor("symb_det.vhd", 452, 568); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 313, 182, false, false, false, true, false); // ad (symb_det.vhd) - Popup Trigger
+selectCodeEditor("symb_det.vhd", 28, 175); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 336, 253); // ad (symb_det.vhd)
+selectCodeEditor("symb_det.vhd", 308, 236); // ad (symb_det.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcdecoder.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "symb_det.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("symb_det.vhd", 365, 360); // ad (symb_det.vhd)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 02h:34m:45s
+// Elapsed Time for: 'L.f': 02h:34m:47s
