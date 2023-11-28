@@ -18,7 +18,7 @@ parser.add_argument(
 parser.add_argument(
     '--adc_freq', '-f', help='ADC sampling frequency (rate), default 96000', default=96000)
 parser.add_argument(
-    '--sym_rate', '-r', help='Symbol rate of decoder (default 16)', default=32)
+    '--sym_rate', '-r', help='Symbol rate of decoder (default 16)', default=16)
 parser.add_argument(
     '--info_str', '-s', help='Information which needs to be decoded (default FLATWHITE!)', default="FLATWHITE!")
 args = parser.parse_args()
