@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim/glbl.v,1697210494,verilog,,,,glbl,,,,,,,,
+C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/sim_top_tb.vhd,1669616356,vhdl,,,,sim_top_tb,,,,,,,,
+C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/dpop.vhd,1669616356,vhdl,,,,dpop,,,,,,,,
+C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mucodec.vhd,1669616356,vhdl,,,,mucodec,,,,,,,,
+C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/musiccode_top.vhd,1669616356,vhdl,,,,musiccode_top,,,,,,,,
+C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/myuart.vhd,1669616356,vhdl,,,,myuart,,,,,,,,
+C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sim_top.vhd,1669616356,vhdl,,,,sim_top,,,,,,,,
+C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/symb_det.vhd,1669616356,vhdl,,,,symb_det,,,,,,,,
