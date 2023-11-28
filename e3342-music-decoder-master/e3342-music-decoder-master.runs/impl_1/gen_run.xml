@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1701191024">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1701193006">
   <File Type="ROUTE-PWR" Name="sys_top_power_routed.rpt"/>
   <File Type="PA-TCL" Name="sys_top.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="sys_top_power_summary_routed.pb"/>
@@ -102,26 +102,10 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/rtl/dpop.vhd">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/mcdecoder.vhd">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/src/rtl/dpop.vhd"/>
-        <Attr Name="ImportTime" Val="1669616357"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/rtl/mucodec.vhd">
-      <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/src/rtl/mucodec.vhd"/>
-        <Attr Name="ImportTime" Val="1669616357"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/rtl/musiccode_top.vhd">
-      <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/src/rtl/musiccode_top.vhd"/>
-        <Attr Name="ImportTime" Val="1669616357"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/src/rtl/mcdecoder.vhd"/>
+        <Attr Name="ImportTime" Val="1701095665"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -144,17 +128,8 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/rtl/sys_top.vhd">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/src/rtl/sys_top.vhd"/>
-        <Attr Name="ImportTime" Val="1669616357"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/rtl/mcdecoder.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="ImportPath" Val="$PPRDIR/src/rtl/mcdecoder.vhd"/>
-        <Attr Name="ImportTime" Val="1701095665"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../elec3342_prj_tmpl/src_files/sys_top.vhd"/>
+        <Attr Name="ImportTime" Val="1701192904"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -162,8 +137,8 @@
     <File Path="$PSRCDIR/sources_1/imports/rtl/sim_top.vhd">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="ImportPath" Val="$PPRDIR/src/rtl/sim_top.vhd"/>
-        <Attr Name="ImportTime" Val="1669616357"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../elec3342_prj_tmpl/src_files/sim_top.vhd"/>
+        <Attr Name="ImportTime" Val="1701192927"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -203,7 +178,9 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

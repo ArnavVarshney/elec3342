@@ -3,10 +3,10 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Wed Nov 29 00:43:21 2023
-# Process ID: 5080
+# Start of session at: Wed Nov 29 01:21:07 2023
+# Process ID: 4340
 # Current directory: C:/Users/varsh/Downloads/e3342-music-decoder-master
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6856 C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13648 C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.xpr
 # Log file: C:/Users/varsh/Downloads/e3342-music-decoder-master/vivado.log
 # Journal file: C:/Users/varsh/Downloads/e3342-music-decoder-master\vivado.jou
 # Running On: Arnav-G15, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 16, Host memory: 25132 MB
@@ -14,6 +14,56 @@
 start_gui
 open_project C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.xpr
 update_compile_order -fileset sources_1
+launch_simulation
+source sim_top_tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/sim_top_tb/sim_top_inst/musiccode_top_inst/mucodec_inst}} 
+relaunch_sim
+run 10 us
+relaunch_sim
+run 10 us
+run 10 ms
+close_sim
+launch_simulation
+source sim_top_tb.tcl
+run 10 ms
+current_wave_config {Untitled 2}
+add_wave {{/sim_top_tb/sim_top_inst/musiccode_top_inst/mucodec_inst/dout}} 
+current_wave_config {Untitled 2}
+add_wave {{/sim_top_tb/sim_top_inst/musiccode_top_inst/symb_det_inst/symbol_out}} 
+relaunch_sim
+run 1 ms
+run 1 ms
+set_property -name {xsim.simulate.runtime} -value {10ms} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source sim_top_tb.tcl
+current_wave_config {Untitled 3}
+add_wave {{/sim_top_tb/sim_top_inst/musiccode_top_inst/mucodec_inst}} 
+relaunch_sim
+close_sim
+update_files -from_files C:/Users/varsh/Downloads/elec3342_prj_tmpl/src_files/sys_top.vhd -to_files C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd -filesets [get_filesets *]
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/varsh/Downloads/e3342-music-decoder-master/src/rtl/sim_top.vhd -to_files C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sim_top.vhd -filesets [get_filesets *]
+update_files -from_files C:/Users/varsh/Downloads/elec3342_prj_tmpl/src_files/sim_top.vhd -to_files C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sim_top.vhd -filesets [get_filesets *]
+export_ip_user_files -of_objects  [get_files C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/musiccode_top.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/musiccode_top.vhd
+file delete -force C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/musiccode_top.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mucodec.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mucodec.vhd
+file delete -force C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mucodec.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/dpop.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/dpop.vhd
+file delete -force C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/dpop.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/mucodec_tb.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/musiccode_top_tb.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/myuart_tb.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/sym_det_tb.vhd] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/mucodec_tb.vhd C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/musiccode_top_tb.vhd C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/myuart_tb.vhd C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/sym_det_tb.vhd}
+file delete -force C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/mucodec_tb.vhd C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/musiccode_top_tb.vhd C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/myuart_tb.vhd C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/sym_det_tb.vhd
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
 open_hw_manager
 connect_hw_server -allow_non_jtag
 open_hw_target
@@ -25,15 +75,7 @@ set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
 set_property PROGRAM.FILE {C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/sys_top.bit} [get_hw_devices xc7a35t_0]
 program_hw_devices [get_hw_devices xc7a35t_0]
 refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 16
-wait_on_run impl_1
-set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property PROGRAM.FILE {C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/sys_top.bit} [get_hw_devices xc7a35t_0]
-program_hw_devices [get_hw_devices xc7a35t_0]
-refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
-reset_run synth_1
+reset_run impl_1 -prev_step 
 launch_runs impl_1 -to_step write_bitstream -jobs 16
 wait_on_run impl_1
 set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]

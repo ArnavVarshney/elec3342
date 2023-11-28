@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date             : Wed Nov 29 01:05:18 2023
+| Date             : Wed Nov 29 01:38:13 2023
 | Host             : Arnav-G15 running 64-bit major release  (build 9200)
 | Command          : report_power -file sys_top_power_routed.rpt -pb sys_top_power_summary_routed.pb -rpx sys_top_power_routed.rpx
 | Design           : sys_top
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.192        |
+| Total On-Chip Power (W)  | 0.191        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.120        |
+| Dynamic (W)              | 0.119        |
 | Device Static (W)        | 0.072        |
 | Effective TJA (C/W)      | 5.0          |
 | Max Ambient (C)          | 84.0         |
@@ -53,17 +53,17 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        8 |       --- |             --- |
-| Slice Logic    |    <0.001 |      283 |       --- |             --- |
-|   LUT as Logic |    <0.001 |      108 |     20800 |            0.52 |
-|   Register     |    <0.001 |      109 |     41600 |            0.26 |
+| Slice Logic    |    <0.001 |      249 |       --- |             --- |
+|   LUT as Logic |    <0.001 |       83 |     20800 |            0.40 |
+|   Register     |    <0.001 |      108 |     41600 |            0.26 |
 |   CARRY4       |    <0.001 |        7 |      8150 |            0.09 |
 |   BUFG         |    <0.001 |        1 |        32 |            3.13 |
 |   Others       |     0.000 |       17 |       --- |             --- |
-| Signals        |    <0.001 |      208 |       --- |             --- |
+| Signals        |    <0.001 |      172 |       --- |             --- |
 | MMCM           |     0.118 |        1 |         5 |           20.00 |
-| I/O            |     0.001 |        7 |       106 |            6.60 |
+| I/O            |    <0.001 |        7 |       106 |            6.60 |
 | Static Power   |     0.072 |          |           |                 |
-| Total          |     0.192 |          |           |                 |
+| Total          |     0.191 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -147,7 +147,7 @@ Table of Contents
 +----------------+-----------+
 | Name           | Power (W) |
 +----------------+-----------+
-| sys_top        |     0.120 |
+| sys_top        |     0.119 |
 |   clk_wiz_inst |     0.119 |
 |     inst       |     0.119 |
 +----------------+-----------+

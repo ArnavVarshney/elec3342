@@ -70,8 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 4
-set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
@@ -91,9 +89,7 @@ OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
   C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/adccntrl.vhd
   C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/clk_div.vhd
-  C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/dpop.vhd
-  C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mucodec.vhd
-  C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/musiccode_top.vhd
+  C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mcdecoder.vhd
   C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/myuart.vhd
   C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/symb_det.vhd
   C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd

@@ -3,8 +3,8 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Wed Nov 29 01:03:47 2023
-# Process ID: 3052
+# Start of session at: Wed Nov 29 01:36:49 2023
+# Process ID: 17344
 # Current directory: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1
 # Command line: vivado.exe -log sys_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sys_top.tcl
 # Log file: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/sys_top.vds
@@ -26,42 +26,35 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 14808
+INFO: [Synth 8-7075] Helper process launched with PID 21664
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1329.383 ; gain = 439.172
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1329.852 ; gain = 440.965
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'sys_top' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd:25]
-WARNING: [Synth 8-5640] Port 'reset' is missing in component declaration [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd:34]
-INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/.Xil/Vivado-3052-Arnav-G15/realtime/clk_wiz_0_stub.vhdl:6' bound to instance 'clk_wiz_inst' of component 'clk_wiz_0' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd:63]
-INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/.Xil/Vivado-3052-Arnav-G15/realtime/clk_wiz_0_stub.vhdl:16]
-INFO: [Synth 8-3491] module 'clk_div' declared at 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/clk_div.vhd:36' bound to instance 'clk_div_128_inst' of component 'clk_div' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'sys_top' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd:46]
+WARNING: [Synth 8-5640] Port 'reset' is missing in component declaration [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd:55]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/.Xil/Vivado-17344-Arnav-G15/realtime/clk_wiz_0_stub.vhdl:6' bound to instance 'clk_wiz_inst' of component 'clk_wiz_0' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd:110]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/.Xil/Vivado-17344-Arnav-G15/realtime/clk_wiz_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'clk_div' declared at 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/clk_div.vhd:36' bound to instance 'clk_div_128_inst' of component 'clk_div' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd:122]
 INFO: [Synth 8-638] synthesizing module 'clk_div' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/clk_div.vhd:42]
 INFO: [Synth 8-256] done synthesizing module 'clk_div' (0#1) [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/clk_div.vhd:42]
-INFO: [Synth 8-3491] module 'adccntrl' declared at 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/adccntrl.vhd:36' bound to instance 'adc_ctrl_inst' of component 'adccntrl' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd:82]
+INFO: [Synth 8-3491] module 'adccntrl' declared at 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/adccntrl.vhd:36' bound to instance 'adc_ctrl_inst' of component 'adccntrl' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd:129]
 INFO: [Synth 8-638] synthesizing module 'adccntrl' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/adccntrl.vhd:45]
 INFO: [Synth 8-226] default block is never used [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/adccntrl.vhd:98]
 INFO: [Synth 8-256] done synthesizing module 'adccntrl' (0#1) [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/adccntrl.vhd:45]
-INFO: [Synth 8-3491] module 'musiccode_top' declared at 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/musiccode_top.vhd:5' bound to instance 'musiccode_top_inst' of component 'musiccode_top' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd:91]
-INFO: [Synth 8-638] synthesizing module 'musiccode_top' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/musiccode_top.vhd:13]
-INFO: [Synth 8-3491] module 'symb_det' declared at 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/symb_det.vhd:11' bound to instance 'symb_det_inst' of component 'symb_det' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/musiccode_top.vhd:60]
+INFO: [Synth 8-3491] module 'symb_det' declared at 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/symb_det.vhd:11' bound to instance 'symb_det_inst' of component 'symb_det' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd:138]
 INFO: [Synth 8-638] synthesizing module 'symb_det' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/symb_det.vhd:20]
 WARNING: [Synth 8-614] signal 'squared_adc_buffer' is read in the process but is not in the sensitivity list [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/symb_det.vhd:66]
 WARNING: [Synth 8-614] signal 'note_clk_buffer' is read in the process but is not in the sensitivity list [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/symb_det.vhd:66]
 WARNING: [Synth 8-614] signal 'freq_counter' is read in the process but is not in the sensitivity list [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/symb_det.vhd:97]
 INFO: [Synth 8-256] done synthesizing module 'symb_det' (0#1) [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/symb_det.vhd:20]
-INFO: [Synth 8-3491] module 'mucodec' declared at 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mucodec.vhd:4' bound to instance 'mucodec_inst' of component 'mucodec' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/musiccode_top.vhd:62]
-INFO: [Synth 8-638] synthesizing module 'mucodec' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mucodec.vhd:16]
-WARNING: [Synth 8-614] signal 'state' is read in the process but is not in the sensitivity list [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mucodec.vhd:42]
-WARNING: [Synth 8-614] signal 'note_order' is read in the process but is not in the sensitivity list [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mucodec.vhd:42]
-WARNING: [Synth 8-614] signal 'valid_buffer' is read in the process but is not in the sensitivity list [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mucodec.vhd:42]
-WARNING: [Synth 8-614] signal 'note_byte' is read in the process but is not in the sensitivity list [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mucodec.vhd:42]
-WARNING: [Synth 8-614] signal 'din' is read in the process but is not in the sensitivity list [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mucodec.vhd:42]
-WARNING: [Synth 8-614] signal 'note_byte' is read in the process but is not in the sensitivity list [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mucodec.vhd:105]
-INFO: [Synth 8-256] done synthesizing module 'mucodec' (0#1) [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mucodec.vhd:16]
-INFO: [Synth 8-3491] module 'dpop' declared at 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/dpop.vhd:5' bound to instance 'dpop_inst' of component 'dpop' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/musiccode_top.vhd:65]
-INFO: [Synth 8-638] synthesizing module 'dpop' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/dpop.vhd:14]
-INFO: [Synth 8-256] done synthesizing module 'dpop' (0#1) [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/dpop.vhd:14]
-INFO: [Synth 8-3491] module 'myuart' declared at 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/myuart.vhd:10' bound to instance 'uart_inst' of component 'myuart' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/musiccode_top.vhd:68]
+WARNING: [Synth 8-5640] Port 'led' is missing in component declaration [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd:78]
+INFO: [Synth 8-3491] module 'mcdecoder' declared at 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mcdecoder.vhd:4' bound to instance 'mcdecoder_inst' of component 'mcdecoder' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'mcdecoder' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mcdecoder.vhd:16]
+WARNING: [Synth 8-614] signal 'note_order' is read in the process but is not in the sensitivity list [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mcdecoder.vhd:46]
+WARNING: [Synth 8-614] signal 'note_order_buffer' is read in the process but is not in the sensitivity list [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mcdecoder.vhd:46]
+WARNING: [Synth 8-614] signal 'note_byte' is read in the process but is not in the sensitivity list [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mcdecoder.vhd:87]
+INFO: [Synth 8-256] done synthesizing module 'mcdecoder' (0#1) [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mcdecoder.vhd:16]
+INFO: [Synth 8-3491] module 'myuart' declared at 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/myuart.vhd:10' bound to instance 'myuart_inst' of component 'myuart' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd:158]
 INFO: [Synth 8-638] synthesizing module 'myuart' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/myuart.vhd:20]
 INFO: [Synth 8-226] default block is never used [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/myuart.vhd:57]
 WARNING: [Synth 8-614] signal 'state' is read in the process but is not in the sensitivity list [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/myuart.vhd:54]
@@ -71,23 +64,20 @@ WARNING: [Synth 8-614] signal 'bit_seq' is read in the process but is not in the
 INFO: [Synth 8-226] default block is never used [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/myuart.vhd:74]
 WARNING: [Synth 8-614] signal 'din_buffer' is read in the process but is not in the sensitivity list [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/myuart.vhd:72]
 INFO: [Synth 8-256] done synthesizing module 'myuart' (0#1) [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/myuart.vhd:20]
-INFO: [Synth 8-256] done synthesizing module 'musiccode_top' (0#1) [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/musiccode_top.vhd:13]
-INFO: [Synth 8-256] done synthesizing module 'sys_top' (0#1) [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd:25]
-WARNING: [Synth 8-7129] Port din_error in module dpop is either unconnected or has no load
-WARNING: [Synth 8-7129] Port dout_ready in module dpop is either unconnected or has no load
+INFO: [Synth 8-256] done synthesizing module 'sys_top' (0#1) [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd:46]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1440.879 ; gain = 550.668
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1441.297 ; gain = 552.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1440.879 ; gain = 550.668
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1441.297 ; gain = 552.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1440.879 ; gain = 550.668
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1441.297 ; gain = 552.410
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1440.879 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1441.297 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -100,22 +90,22 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/sys_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1549.094 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1538.746 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1549.094 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1538.746 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1549.094 ; gain = 658.883
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1538.746 ; gain = 649.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1549.094 ; gain = 658.883
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1538.746 ; gain = 649.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -124,11 +114,11 @@ Applied set_property IO_BUFFER_TYPE = NONE for clk_100m. (constraint file  c:/Us
 Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_100m. (constraint file  c:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
 Applied set_property KEEP_HIERARCHY = SOFT for clk_wiz_inst. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1549.094 ; gain = 658.883
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1538.746 ; gain = 649.859
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'adccntrl'
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'symb_det'
-INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'mucodec'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'mcdecoder'
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
@@ -158,14 +148,14 @@ WARNING: [Synth 8-327] inferring latch for variable 'symbol_out_reg' [C:/Users/v
              st_starting |                              001 |                              010
             st_listening |                              010 |                              011
               st_endding |                              011 |                              101
-              st_writing |                              100 |                              100
-                st_error |                              101 |                              001
+                st_error |                              100 |                              001
+              st_writing |                              101 |                              100
 ---------------------------------------------------------------------------------------------------
-INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'mucodec'
-WARNING: [Synth 8-327] inferring latch for variable 'dout_reg' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mucodec.vhd:111]
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'mcdecoder'
+WARNING: [Synth 8-327] inferring latch for variable 'dout_reg' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mcdecoder.vhd:96]
 WARNING: [Synth 8-327] inferring latch for variable 'din_buffer_reg' [C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/myuart.vhd:60]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1549.094 ; gain = 658.883
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1538.746 ; gain = 649.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -182,24 +172,21 @@ Detailed RTL Component Info :
 	                7 Bit    Registers := 2     
 	                6 Bit    Registers := 1     
 	                4 Bit    Registers := 2     
-	                1 Bit    Registers := 7     
+	                1 Bit    Registers := 8     
 +---Muxes : 
 	   2 Input   12 Bit        Muxes := 1     
 	   4 Input   12 Bit        Muxes := 1     
 	   4 Input    8 Bit        Muxes := 1     
-	  31 Input    8 Bit        Muxes := 1     
-	   6 Input    8 Bit        Muxes := 1     
 	   4 Input    4 Bit        Muxes := 1     
 	   2 Input    4 Bit        Muxes := 3     
 	   6 Input    3 Bit        Muxes := 2     
 	   9 Input    3 Bit        Muxes := 2     
 	   2 Input    3 Bit        Muxes := 3     
-	   3 Input    3 Bit        Muxes := 1     
-	   2 Input    1 Bit        Muxes := 14    
+	   2 Input    1 Bit        Muxes := 12    
 	   4 Input    1 Bit        Muxes := 4     
-	   6 Input    1 Bit        Muxes := 5     
-	  31 Input    1 Bit        Muxes := 1     
-	   3 Input    1 Bit        Muxes := 2     
+	   6 Input    1 Bit        Muxes := 2     
+	  63 Input    1 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 4     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -216,27 +203,43 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
-WARNING: [Synth 8-3332] Sequential element (musiccode_top_inst/uart_inst/din_buffer_reg[0]) is unused and will be removed from module sys_top.
+WARNING: [Synth 8-3332] Sequential element (mcdecoder_inst/dout_reg[7]) is unused and will be removed from module sys_top.
+WARNING: [Synth 8-3332] Sequential element (myuart_inst/din_buffer_reg[0]) is unused and will be removed from module sys_top.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 1549.094 ; gain = 658.883
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1538.746 ; gain = 649.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++------------+---------------------+---------------+----------------+
+|Module Name | RTL Object          | Depth x Width | Implemented As | 
++------------+---------------------+---------------+----------------+
+|mcdecoder   | dout                | 64x8          | LUT            | 
+|sys_top     | mcdecoder_inst/dout | 64x8          | LUT            | 
++------------+---------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1549.094 ; gain = 658.883
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1538.746 ; gain = 649.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1549.094 ; gain = 658.883
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1538.746 ; gain = 649.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 1549.094 ; gain = 658.883
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1538.746 ; gain = 649.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -255,37 +258,37 @@ Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 CRITICAL WARNING: [Synth 8-4442] BlackBox module clk_wiz_inst has unconnected pin reset
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 1549.094 ; gain = 658.883
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1538.746 ; gain = 649.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 1549.094 ; gain = 658.883
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1538.746 ; gain = 649.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 1549.094 ; gain = 658.883
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1538.746 ; gain = 649.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 1549.094 ; gain = 658.883
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1538.746 ; gain = 649.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 1549.094 ; gain = 658.883
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1538.746 ; gain = 649.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 1549.094 ; gain = 658.883
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1538.746 ; gain = 649.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -306,44 +309,44 @@ Report Cell Usage:
 |2     |BUFG           |     1|
 |3     |CARRY4         |     7|
 |4     |LUT1           |     7|
-|5     |LUT2           |    34|
-|6     |LUT3           |    20|
-|7     |LUT4           |    28|
+|5     |LUT2           |    26|
+|6     |LUT3           |    13|
+|7     |LUT4           |    24|
 |8     |LUT5           |    15|
-|9     |LUT6           |    45|
+|9     |LUT6           |    31|
 |10    |FDCE           |    29|
 |11    |FDPE           |     1|
-|12    |FDRE           |    59|
-|13    |LD             |    19|
+|12    |FDRE           |    60|
+|13    |LD             |    17|
 |14    |LDC            |     1|
 |15    |IBUF           |     2|
 |16    |OBUF           |     4|
 +------+---------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 1549.094 ; gain = 658.883
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1538.746 ; gain = 649.859
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 1 critical warnings and 6 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:24 . Memory (MB): peak = 1549.094 ; gain = 550.668
-Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 1549.094 ; gain = 658.883
+Synthesis finished with 0 errors, 1 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 1538.746 ; gain = 552.410
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1538.746 ; gain = 649.859
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1549.094 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 27 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1538.746 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 25 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1549.094 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1538.746 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 20 instances were transformed.
-  LD => LDCE: 19 instances
+  A total of 18 instances were transformed.
+  LD => LDCE: 17 instances
   LDC => LDCE: 1 instance 
 
-Synth Design complete | Checksum: 53ba9c38
+Synth Design complete | Checksum: ce6b9130
 INFO: [Common 17-83] Releasing license: Synthesis
-56 Infos, 23 Warnings, 1 Critical Warnings and 0 Errors encountered.
+50 Infos, 20 Warnings, 1 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 1549.094 ; gain = 1050.074
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 1538.746 ; gain = 1040.871
 INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1549.094 ; gain = 0.000
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1538.746 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/sys_top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file sys_top_utilization_synth.rpt -pb sys_top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed Nov 29 01:04:24 2023...
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 29 01:37:25 2023...

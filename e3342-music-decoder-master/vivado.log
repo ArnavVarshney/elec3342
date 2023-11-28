@@ -3,10 +3,10 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Wed Nov 29 00:43:21 2023
-# Process ID: 5080
+# Start of session at: Wed Nov 29 01:21:07 2023
+# Process ID: 4340
 # Current directory: C:/Users/varsh/Downloads/e3342-music-decoder-master
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6856 C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13648 C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.xpr
 # Log file: C:/Users/varsh/Downloads/e3342-music-decoder-master/vivado.log
 # Journal file: C:/Users/varsh/Downloads/e3342-music-decoder-master\vivado.jou
 # Running On: Arnav-G15, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 16, Host memory: 25132 MB
@@ -76,8 +76,633 @@ INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
 WARNING: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
 * This IP has board specific outputs. Current project board 'unset' and the board 'digilentinc.com:basys3:part0:1.2' used to customize the IP 'clk_wiz_0' do not match.
-open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 1529.254 ; gain = 150.305
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 1518.957 ; gain = 170.465
 update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sim_top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim/info_wave.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_top_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+"xvhdl --incr --relax -prj sim_top_tb_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mucodec.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mucodec'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/symb_det.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'symb_det'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_top_tb_behav xil_defaultlib.sim_top_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_top_tb_behav xil_defaultlib.sim_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling module xil_defaultlib.glbl
+Compiling architecture rtl of entity xil_defaultlib.symb_det [symb_det_default]
+Compiling architecture rtl of entity xil_defaultlib.mucodec [mucodec_default]
+Compiling architecture rtl of entity xil_defaultlib.dpop [dpop_default]
+Compiling architecture rtl of entity xil_defaultlib.myuart [myuart_default]
+Compiling architecture rtl of entity xil_defaultlib.musiccode_top [musiccode_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.sim_top [sim_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.sim_top_tb
+Built simulation snapshot sim_top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sim_top_tb_behav -key {Behavioral:sim_1:Functional:sim_top_tb} -tclbatch {sim_top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source sim_top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: [Wavedata 42-489] Can't add object "/sim_top_tb/input_wave" to the wave window because it has 1584000 bits, which exceeds the display limit of 65536 bits.  To change the display limit, use the command "set_property display_limit <new limit> [current_wave_config]".
+WARNING: Simulation object /sim_top_tb/file_VECTORS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+# run 1000ns
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:21 . Memory (MB): peak = 1576.527 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:25 . Memory (MB): peak = 1576.527 ; gain = 23.914
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim_top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:33 . Memory (MB): peak = 1576.527 ; gain = 24.852
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/sim_top_tb/sim_top_inst/musiccode_top_inst/mucodec_inst}} 
+relaunch_sim
+INFO: xsimkernel Simulation Memory Usage: 22496 KB (Peak: 22496 KB), Simulation CPU Usage: 16249 ms
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'sim_top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim/info_wave.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_top_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+"xvhdl --incr --relax -prj sim_top_tb_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'sim_top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_top_tb_behav xil_defaultlib.sim_top_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_top_tb_behav xil_defaultlib.sim_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:21 . Memory (MB): peak = 1588.480 ; gain = 3.055
+relaunch_xsim_kernel: Time (s): cpu = 00:00:01 ; elapsed = 00:00:22 . Memory (MB): peak = 1588.480 ; gain = 3.055
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:28 . Memory (MB): peak = 1588.480 ; gain = 3.055
+run 10 us
+relaunch_sim
+INFO: xsimkernel Simulation Memory Usage: 22140 KB (Peak: 22140 KB), Simulation CPU Usage: 18780 ms
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'sim_top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_top_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+"xvhdl --incr --relax -prj sim_top_tb_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'sim_top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_top_tb_behav xil_defaultlib.sim_top_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_top_tb_behav xil_defaultlib.sim_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 2655.020 ; gain = 0.000
+relaunch_xsim_kernel: Time (s): cpu = 00:00:01 ; elapsed = 00:00:19 . Memory (MB): peak = 2655.020 ; gain = 0.000
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:25 . Memory (MB): peak = 2655.020 ; gain = 0.000
+run 10 us
+run 10 ms
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 29772 KB (Peak: 29772 KB), Simulation CPU Usage: 17343 ms
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sim_top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim/info_wave.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_top_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+"xvhdl --incr --relax -prj sim_top_tb_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/sim_top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sim_top_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_top_tb_behav xil_defaultlib.sim_top_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_top_tb_behav xil_defaultlib.sim_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling module xil_defaultlib.glbl
+Compiling architecture rtl of entity xil_defaultlib.symb_det [symb_det_default]
+Compiling architecture rtl of entity xil_defaultlib.mucodec [mucodec_default]
+Compiling architecture rtl of entity xil_defaultlib.dpop [dpop_default]
+Compiling architecture rtl of entity xil_defaultlib.myuart [myuart_default]
+Compiling architecture rtl of entity xil_defaultlib.musiccode_top [musiccode_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.sim_top [sim_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.sim_top_tb
+Built simulation snapshot sim_top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sim_top_tb_behav -key {Behavioral:sim_1:Functional:sim_top_tb} -tclbatch {sim_top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source sim_top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: [Wavedata 42-489] Can't add object "/sim_top_tb/input_wave" to the wave window because it has 2016000 bits, which exceeds the display limit of 65536 bits.  To change the display limit, use the command "set_property display_limit <new limit> [current_wave_config]".
+WARNING: Simulation object /sim_top_tb/file_VECTORS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+# run 1000ns
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:26 . Memory (MB): peak = 2655.020 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:29 . Memory (MB): peak = 2655.020 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim_top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:35 . Memory (MB): peak = 2655.020 ; gain = 0.000
+run 10 ms
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/sim_top_tb/sim_top_inst/musiccode_top_inst/mucodec_inst/dout}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/sim_top_tb/sim_top_inst/musiccode_top_inst/symb_det_inst/symbol_out}} 
+relaunch_sim
+INFO: xsimkernel Simulation Memory Usage: 33792 KB (Peak: 33792 KB), Simulation CPU Usage: 24624 ms
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'sim_top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_top_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+"xvhdl --incr --relax -prj sim_top_tb_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'sim_top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_top_tb_behav xil_defaultlib.sim_top_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_top_tb_behav xil_defaultlib.sim_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:28 . Memory (MB): peak = 2655.020 ; gain = 0.000
+relaunch_xsim_kernel: Time (s): cpu = 00:00:05 ; elapsed = 00:00:29 . Memory (MB): peak = 2655.020 ; gain = 0.000
+relaunch_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:35 . Memory (MB): peak = 2655.020 ; gain = 0.000
+run 1 ms
+run 1 ms
+set_property -name {xsim.simulate.runtime} -value {10ms} -objects [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 33252 KB (Peak: 33252 KB), Simulation CPU Usage: 23593 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sim_top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim/info_wave.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_top_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+"xvhdl --incr --relax -prj sim_top_tb_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_top_tb_behav xil_defaultlib.sim_top_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_top_tb_behav xil_defaultlib.sim_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sim_top_tb_behav -key {Behavioral:sim_1:Functional:sim_top_tb} -tclbatch {sim_top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source sim_top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: [Wavedata 42-489] Can't add object "/sim_top_tb/input_wave" to the wave window because it has 2016000 bits, which exceeds the display limit of 65536 bits.  To change the display limit, use the command "set_property display_limit <new limit> [current_wave_config]".
+WARNING: Simulation object /sim_top_tb/file_VECTORS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+# run 10ms
+run: Time (s): cpu = 00:00:03 ; elapsed = 00:00:31 . Memory (MB): peak = 2771.105 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:34 . Memory (MB): peak = 2771.105 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim_top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10ms
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:39 . Memory (MB): peak = 2771.105 ; gain = 0.000
+current_wave_config {Untitled 3}
+Untitled 3
+add_wave {{/sim_top_tb/sim_top_inst/musiccode_top_inst/mucodec_inst}} 
+relaunch_sim
+INFO: xsimkernel Simulation Memory Usage: 33216 KB (Peak: 33216 KB), Simulation CPU Usage: 25499 ms
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'sim_top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_top_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+"xvhdl --incr --relax -prj sim_top_tb_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'sim_top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_top_tb_behav xil_defaultlib.sim_top_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_top_tb_behav xil_defaultlib.sim_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:31 . Memory (MB): peak = 2771.105 ; gain = 0.000
+relaunch_xsim_kernel: Time (s): cpu = 00:00:04 ; elapsed = 00:00:32 . Memory (MB): peak = 2771.105 ; gain = 0.000
+relaunch_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:38 . Memory (MB): peak = 2771.105 ; gain = 0.000
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 33140 KB (Peak: 33140 KB), Simulation CPU Usage: 25999 ms
+INFO: [Simtcl 6-16] Simulation closed
+update_files -from_files C:/Users/varsh/Downloads/elec3342_prj_tmpl/src_files/sys_top.vhd -to_files C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd' with file 'C:/Users/varsh/Downloads/elec3342_prj_tmpl/src_files/sys_top.vhd'.
+INFO: [filemgmt 20-1080] Importing file from 'C:/Users/varsh/Downloads/elec3342_prj_tmpl/src_files/sys_top.vhd' to 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sys_top.vhd'.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+update_files -from_files C:/Users/varsh/Downloads/e3342-music-decoder-master/src/rtl/sim_top.vhd -to_files C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sim_top.vhd -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sim_top.vhd' with file 'C:/Users/varsh/Downloads/e3342-music-decoder-master/src/rtl/sim_top.vhd'.
+INFO: [filemgmt 20-1080] Importing file from 'C:/Users/varsh/Downloads/e3342-music-decoder-master/src/rtl/sim_top.vhd' to 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sim_top.vhd'.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+update_files -from_files C:/Users/varsh/Downloads/elec3342_prj_tmpl/src_files/sim_top.vhd -to_files C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sim_top.vhd -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sim_top.vhd' with file 'C:/Users/varsh/Downloads/elec3342_prj_tmpl/src_files/sim_top.vhd'.
+INFO: [filemgmt 20-1080] Importing file from 'C:/Users/varsh/Downloads/elec3342_prj_tmpl/src_files/sim_top.vhd' to 'C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sim_top.vhd'.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+export_ip_user_files -of_objects  [get_files C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/musiccode_top.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/musiccode_top.vhd
+file delete -force C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/musiccode_top.vhd
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+export_ip_user_files -of_objects  [get_files C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mucodec.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mucodec.vhd
+file delete -force C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mucodec.vhd
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+export_ip_user_files -of_objects  [get_files C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/dpop.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/dpop.vhd
+file delete -force C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/dpop.vhd
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+export_ip_user_files -of_objects  [get_files C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/mucodec_tb.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/musiccode_top_tb.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/myuart_tb.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/sym_det_tb.vhd] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/mucodec_tb.vhd C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/musiccode_top_tb.vhd C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/myuart_tb.vhd C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/sym_det_tb.vhd}
+file delete -force C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/mucodec_tb.vhd C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/musiccode_top_tb.vhd C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/myuart_tb.vhd C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/sym_det_tb.vhd
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/utils_1/imports/synth_1/sys_top.dcp with file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/sys_top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Nov 29 01:36:46 2023] Launched synth_1...
+Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/runme.log
+[Wed Nov 29 01:36:46 2023] Launched impl_1...
+Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sim_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sim_top.vhd:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sim_1\imports\tb\sim_top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sys_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\musiccode_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\sim_top.vhd:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
 open_hw_manager
 connect_hw_server -allow_non_jtag
 INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
@@ -119,12 +744,9 @@ program_hw_devices [get_hw_devices xc7a35t_0]
 INFO: [Labtools 27-3164] End of startup status: HIGH
 refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
 INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
-reset_run synth_1
-INFO: [Project 1-1161] Replacing file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/utils_1/imports/synth_1/sys_top.dcp with file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/sys_top.dcp
+reset_run impl_1 -prev_step 
 launch_runs impl_1 -to_step write_bitstream -jobs 16
-[Wed Nov 29 00:58:15 2023] Launched synth_1...
-Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/runme.log
-[Wed Nov 29 00:58:15 2023] Launched impl_1...
+[Wed Nov 29 01:41:54 2023] Launched impl_1...
 Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/runme.log
 set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
 set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
@@ -133,28 +755,3 @@ program_hw_devices [get_hw_devices xc7a35t_0]
 INFO: [Labtools 27-3164] End of startup status: HIGH
 refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
 INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
-ERROR: [Common 17-180] Spawn failed: No error
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
-ERROR: [Common 17-180] Spawn failed: No error
-reset_run synth_1
-INFO: [Project 1-1161] Replacing file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/utils_1/imports/synth_1/sys_top.dcp with file C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/sys_top.dcp
-launch_runs impl_1 -to_step write_bitstream -jobs 16
-[Wed Nov 29 01:03:44 2023] Launched synth_1...
-Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/synth_1/runme.log
-[Wed Nov 29 01:03:44 2023] Launched impl_1...
-Run output will be captured here: C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/runme.log
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\mucodec.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\e3342-music-decoder-master\e3342-music-decoder-master.srcs\sources_1\imports\rtl\symb_det.vhd:]
-ERROR: [Common 17-180] Spawn failed: No error
-set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property PROGRAM.FILE {C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.runs/impl_1/sys_top.bit} [get_hw_devices xc7a35t_0]
-program_hw_devices [get_hw_devices xc7a35t_0]
-INFO: [Labtools 27-3164] End of startup status: HIGH
-refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
-INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
-exit
-INFO: [Common 17-206] Exiting Vivado at Wed Nov 29 01:17:05 2023...
