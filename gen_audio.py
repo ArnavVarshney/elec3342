@@ -15,17 +15,16 @@ CODE_TABLE = {
 FREQ = 16
 SAMPLE_RATE = 96000
 NOTES = np.array([523.25, 659.25, 783.99, 987.77, 1174.66, 1396.91, 1760.00, 2093.00])
+# NOTES = np.flip(NOTES)
 
 # for txt only
 AMPLITUDE = 2 ** 11 - 1
 NOISE_MU, NOISE_SIGMA = 0, 0.05 # gaussian noice
 
-PLAIN_TEXT = 'FLATWHITE!'
+PLAIN_TEXT = 'DAMNIT! I HATE VHDL!'
 WAV = True
 TXT = True
 
-
-# TODO
 def gen_wave(phases, instrument='sin'):
     if instrument == 'sin':
         return np.sin(phases)
