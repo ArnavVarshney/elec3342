@@ -31,7 +31,7 @@ BEGIN
 		ELSIF rising_edge(clk) THEN
 			squared_adc_buffer <= squared_adc;
 			note_clk_buffer    <= note_clk;
-			IF note_clk_counter = x"BB7" THEN
+			IF note_clk_counter = x"7D0" THEN --24 tick rate
 				note_clk         <= NOT note_clk;
 				note_clk_counter <= x"000";
 			ELSE

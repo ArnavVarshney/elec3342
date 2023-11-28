@@ -78,13 +78,13 @@ parser.add_argument(
     default=96000,
 )
 parser.add_argument(
-    "--sym_rate", "-r", help="Symbol rate of decoder (default 16)", default=16
+    "--sym_rate", "-r", help="Symbol rate of decoder (default 16)", default=24
 )
 parser.add_argument(
     "--info_str",
     "-s",
     help="Information which needs to be decoded (default ENJOY FLATWHITE!)",
-    default="DAMNIT! I HATE VHDL!",
+    default="ABCDEF!GHIJK.LMNOP?QRS(TUV:WXYZ)^;#",
 )
 args = parser.parse_args()
 
@@ -119,6 +119,12 @@ dic_table = {
     ".": ["4", "6"],
     " ": ["6", "5"],
     "?": ["5", "6"],
+    "(": ["1", "1"],
+    ")": ["2", "2"],
+    ":": ["3", "3"],
+    "^": ["4", "4"],
+    ";": ["5", "5"],
+    "#": ["6", "6"],
 }
 
 # frequency (Hz)
@@ -156,4 +162,4 @@ for repeat_index in range(3):
             audio, wave_freq, duration_milliseconds, sample_rate, volume=1.0
         )
 print("-- Writing files")
-save_wav(audio, sample_rate, f"{args.info_str}-new-{args.sym_rate}.wav")
+save_wav(audio, sample_rate, f"{args.info_str[:10]}-new-{args.sym_rate}.wav")

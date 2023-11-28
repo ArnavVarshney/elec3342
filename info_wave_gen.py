@@ -20,7 +20,7 @@ parser.add_argument(
 parser.add_argument(
     '--sym_rate', '-r', help='Symbol rate of decoder (default 16)', default=16)
 parser.add_argument(
-    '--info_str', '-s', help='Information which needs to be decoded (default FLATWHITE!)', default="FLATWHITE!")
+    '--info_str', '-s', help='Information which needs to be decoded (default FLATWHITE!)', default="FLATWHITE!  ")
 args = parser.parse_args()
 
 dic_table = {'A': ['2', '1'], 'B': ['1', '2'], 'C': ['3', '1'], 'D': ['1', '3'], 'E': ['4', '1'],
