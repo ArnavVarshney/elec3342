@@ -84,7 +84,7 @@ parser.add_argument(
     "--info_str",
     "-s",
     help="Information which needs to be decoded (default ENJOY FLATWHITE!)",
-    default="ENJOY FLATWHITE!",
+    default="DAMNIT! I HATE VHDL!",
 )
 args = parser.parse_args()
 
