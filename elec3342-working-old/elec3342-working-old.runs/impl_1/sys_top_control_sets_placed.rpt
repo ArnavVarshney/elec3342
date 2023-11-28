@@ -1,0 +1,95 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Mon Nov 27 23:59:10 2023
+| Host         : Arnav-G15 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file sys_top_control_sets_placed.rpt
+| Design       : sys_top
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    17 |
+|    Minimum number of control sets                        |    17 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    52 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    17 |
+| >= 0 to < 4        |     3 |
+| >= 4 to < 6        |     3 |
+| >= 6 to < 8        |     7 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     2 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     0 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              20 |            8 |
+| No           | No                    | Yes                    |              14 |            5 |
+| No           | Yes                   | No                     |               1 |            1 |
+| Yes          | No                    | No                     |              21 |           10 |
+| Yes          | No                    | Yes                    |              16 |            4 |
+| Yes          | Yes                   | No                     |              36 |           13 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------------------------------------+-------------------------------------------------------------------+---------------------------------------------------------------------------+------------------+----------------+--------------+
+|                            Clock Signal                           |                           Enable Signal                           |                              Set/Reset Signal                             | Slice Load Count | Bel Load Count | Bels / Slice |
++-------------------------------------------------------------------+-------------------------------------------------------------------+---------------------------------------------------------------------------+------------------+----------------+--------------+
+|  musiccode_top_inst/symb_det_inst/squared_adc0_carry__0_n_2       |                                                                   | musiccode_top_inst/symb_det_inst/squared_adc0_inferred__0/i__carry__0_n_2 |                1 |              1 |         1.00 |
+|  musiccode_top_inst/symb_det_inst/E[0]                            |                                                                   |                                                                           |                2 |              3 |         1.50 |
+|  clk_BUFG                                                         |                                                                   |                                                                           |                2 |              3 |         1.50 |
+|  clk_BUFG                                                         | musiccode_top_inst/uart_inst/bit_seq[3]_i_1_n_0                   | musiccode_top_inst/uart_inst/baud_timer[3]_i_1_n_0                        |                2 |              4 |         2.00 |
+|  clk_BUFG                                                         | musiccode_top_inst/symb_det_inst/p_1_in                           | musiccode_top_inst/uart_inst/baud_timer[3]_i_1_n_0                        |                1 |              4 |         4.00 |
+|  clk_wiz_inst/inst/clk_12288k                                     | adc_ctrl_inst/FSM_onehot_state[3]_i_1_n_0                         | clr_IBUF                                                                  |                1 |              4 |         4.00 |
+|  clk_BUFG                                                         | musiccode_top_inst/symb_det_inst/FSM_sequential_state_reg[1]_0[0] |                                                                           |                2 |              6 |         3.00 |
+|  musiccode_top_inst/mucodec_inst/FSM_sequential_state_reg[1]_0[0] |                                                                   |                                                                           |                2 |              7 |         3.50 |
+|  musiccode_top_inst/mucodec_inst/dout_reg[6]_i_2_n_0              |                                                                   |                                                                           |                2 |              7 |         3.50 |
+|  clk_BUFG                                                         |                                                                   | clr_IBUF                                                                  |                3 |              7 |         2.33 |
+|  clk_BUFG                                                         | musiccode_top_inst/symb_det_inst/freq_counter0                    | musiccode_top_inst/symb_det_inst/freq_counter[7]_i_1_n_0                  |                3 |              7 |         2.33 |
+|  clk_wiz_inst/inst/clk_12288k                                     |                                                                   | clr_IBUF                                                                  |                2 |              7 |         3.50 |
+|  clk_wiz_inst/inst/clk_12288k                                     | clk_wiz_inst/inst/locked                                          |                                                                           |                3 |              7 |         2.33 |
+|  clk_BUFG                                                         | musiccode_top_inst/symb_det_inst/p_1_in                           |                                                                           |                5 |              8 |         1.60 |
+|  clk_BUFG                                                         | musiccode_top_inst/symb_det_inst/p_1_in                           | musiccode_top_inst/symb_det_inst/note_clk0                                |                3 |              9 |         3.00 |
+|  clk_wiz_inst/inst/clk_12288k                                     | adc_ctrl_inst/data[11]_i_1_n_0                                    | clr_IBUF                                                                  |                4 |             12 |         3.00 |
+|  clk_wiz_inst/inst/clk_12288k                                     | adc_ctrl_inst/dshift                                              | clr_IBUF                                                                  |                3 |             12 |         4.00 |
++-------------------------------------------------------------------+-------------------------------------------------------------------+---------------------------------------------------------------------------+------------------+----------------+--------------+
+
+
