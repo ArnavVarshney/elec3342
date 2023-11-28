@@ -1,7 +1,15 @@
+
 LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
 USE IEEE.NUMERIC_STD.ALL;
 
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
 
 ENTITY myuart IS
 	PORT (
@@ -32,74 +40,88 @@ BEGIN
 			CASE(state) IS
 				WHEN idle => 
 					IF wen = '1' THEN
-		                  		sout <= '1';
-				          	busy <= '0';
-				          	state <= start;
-				          			         
+						state <= start;
 					END IF;
 				WHEN start => 
 					IF cnt = 9 THEN
-						sout <= '0';
-				          	busy <= '1';
-				          	state <= d0;
+						state <= d0;
 					END IF;
 				WHEN d0 => 
 					IF cnt = 9 THEN
-					      	sout <= din(0);
-				          	busy <= '1';
-				          	state <= d1;
+						state <= d1;
 					END IF;
 				WHEN d1 => 
 					IF cnt = 9 THEN
-						sout <= din(1);
-				          	busy <= '1';
-				          	state <= d2;
+						state <= d2;
 					END IF;
 				WHEN d2 => 
 					IF cnt = 9 THEN
-						sout <= din(2);
-				          	busy <= '1';
-				          	state <= d3;
+						state <= d3;
 					END IF;
 				WHEN d3 => 
 					IF cnt = 9 THEN
-						sout <= din(3);
-				          	busy <= '1';
-				          	state <= d4;
+						state <= d4;
 					END IF;
 				WHEN d4 => 
 					IF cnt = 9 THEN
-					   	sout <= din(4);
-				          	busy <= '1';
 						state <= d5;
 					END IF;
 				WHEN d5 => 
 					IF cnt = 9 THEN
-					   	sout <= din(5);
-				          	busy <= '1';
 						state <= d6;
 					END IF;
 				WHEN d6 => 
 					IF cnt = 9 THEN
-						sout <= din(6);
-				          	busy <= '1';
 						state <= d7;
 					END IF;
 				WHEN d7 => 
 					IF cnt = 9 THEN
-					   	sout <= din(7);
-				          	busy <= '1';
 						state <= stop;
 					END IF;
 				WHEN stop => 
 					IF cnt = 9 THEN
-					   	 sout <= '1';
-				          	 busy <= '1';
-						 state <= idle;
+						state <= idle;
 					END IF;
  
 			END CASE;
 		END IF;
 	END PROCESS;
-
+	update : PROCESS (state)
+	BEGIN
+		CASE(state) IS
+			WHEN idle => 
+				sout <= '1';
+				busy <= '0';
+			WHEN start => 
+				sout <= '0';
+				busy <= '1';
+			WHEN d0 => 
+				sout <= din(0);
+				busy <= '1';
+			WHEN d1 => 
+				sout <= din(1);
+				busy <= '1';
+			WHEN d2 => 
+				sout <= din(2);
+				busy <= '1';
+			WHEN d3 => 
+				sout <= din(3);
+				busy <= '1';
+			WHEN d4 => 
+				sout <= din(4);
+				busy <= '1';
+			WHEN d5 => 
+				sout <= din(5);
+				busy <= '1';
+			WHEN d6 => 
+				sout <= din(6);
+				busy <= '1';
+			WHEN d7 => 
+				sout <= din(7);
+				busy <= '1';
+			WHEN stop => 
+				sout <= '1';
+				busy <= '1';
+		END CASE;
+	END PROCESS;
 END rtl;
