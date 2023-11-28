@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/elec3342_prj_tmpl.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/src_files/mcdecoder.vhd,1701196385,vhdl,,,,mcdecoder,,,,,,,,
+C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/src_files/myuart.vhd,1701166521,vhdl,,,,myuart,,,,,,,,
+C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/src_files/sim_top.vhd,1669107162,vhdl,,,,sim_top,,,,,,,,
+C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/src_files/symb_det.vhd,1701196096,vhdl,,,,symb_det,,,,,,,,
+C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/tb/sim_top_tb.vhd,1700643786,vhdl,,,,sim_top_tb,,,,,,,,

@@ -1,0 +1,150 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Nov 28 22:42:13 2023
+# Process ID: 12204
+# Current directory: C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5808 C:\Users\mz239\Desktop\startover\elec3342_prj_tmpl\elec3342_prj_tmpl.xpr
+# Log file: C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/vivado.log
+# Journal file: C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl\vivado.jou
+# Running On: LAPTOP-FRV2A7ED, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 16, Host memory: 14888 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/elec3342_prj_tmpl.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg
+source sim_top_tb.tcl
+run 10 ms
+save_wave_config {C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg}
+set_property INCREMENTAL false [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg
+source sim_top_tb.tcl
+run 10 ms
+close_sim
+launch_simulation
+open_wave_config C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg
+source sim_top_tb.tcl
+run 10 ms
+save_wave_config {C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg
+source sim_top_tb.tcl
+run 10 ms
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+open_wave_config C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg
+source sim_top_tb.tcl
+run 10 ms
+close_sim
+launch_simulation
+open_wave_config C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg
+source sim_top_tb.tcl
+update_compile_order -fileset sources_1
+run 10 ms
+open_project {C:/Users/mz239/Desktop/unmoved working/e3342-music-decoder-master/e3342-music-decoder-master.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/mz239/Desktop/unmoved working/e3342-music-decoder-master/sim_top_tb_behav.wcfg}
+source sim_top_tb.tcl
+run 10 ms
+close_sim
+launch_simulation
+open_wave_config {C:/Users/mz239/Desktop/unmoved working/e3342-music-decoder-master/sim_top_tb_behav.wcfg}
+source sim_top_tb.tcl
+run 10 ms
+current_project elec3342_prj_tmpl
+current_project e3342-music-decoder-master
+close_sim
+close_project
+launch_simulation
+open_wave_config C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg
+source sim_top_tb.tcl
+run 10 ms
+close_sim
+launch_simulation
+open_wave_config C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg
+source sim_top_tb.tcl
+update_compile_order -fileset sources_1
+run 10 ms
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+open_wave_config C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg
+source sim_top_tb.tcl
+run 10 ms
+update_compile_order -fileset sources_1
+save_wave_config {C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg
+source sim_top_tb.tcl
+run 10 ms
+update_compile_order -fileset sources_1
+relaunch_sim
+run 10 ms
+run 10 ms
+current_wave_config {sim_top_tb_behav.wcfg}
+add_wave {{/sim_top_tb/sim_top_inst/mcdecoder_inst}} 
+relaunch_sim
+run 10 ms
+save_wave_config {C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg
+source sim_top_tb.tcl
+run 10 ms
+save_wave_config {C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg
+source sim_top_tb.tcl
+run 10 ms
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg
+source sim_top_tb.tcl
+run 10 ms
+relaunch_sim
+run 10 ms
+current_wave_config {sim_top_tb_behav.wcfg}
+add_wave {{/sim_top_tb/sim_top_inst/symb_det_inst}} 
+relaunch_sim
+run 10 ms
+save_wave_config {C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg
+source sim_top_tb.tcl
+current_wave_config {sim_top_tb_behav.wcfg}
+add_wave {{/sim_top_tb/sim_top_inst/symb_det_inst}} 
+run 10 ms
+relaunch_sim
+run 10 ms
+relaunch_sim
+run 10 ms
+relaunch_sim
+run 10 ms
+current_wave_config {sim_top_tb_behav.wcfg}
+add_wave {{/sim_top_tb/sim_top_inst/mcdecoder_inst/dout}} 
+run 10 ms
+current_wave_config {sim_top_tb_behav.wcfg}
+add_wave {{/sim_top_tb/sim_top_inst/mcdecoder_inst}} 
+relaunch_sim
+run 10 ms
+run 10 ms
+relaunch_sim
+run 10 ms
+current_wave_config {sim_top_tb_behav.wcfg}
+add_wave {{/sim_top_tb/sim_top_inst/mcdecoder_inst}} 
+run 10 ms
+save_wave_config {C:/Users/mz239/Desktop/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg}
+close_sim

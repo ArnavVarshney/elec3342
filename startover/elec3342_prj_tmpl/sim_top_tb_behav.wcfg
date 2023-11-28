@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sim_top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="10,038.466741 us"></ZoomStartTime>
+      <ZoomEndTime time="10,256.466742 us"></ZoomEndTime>
+      <Cursor1Time time="10,074.800074 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="396"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="45" />
+   <wvobject fp_name="/sim_top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/clr" type="logic">
+      <obj_property name="ElementShortName">clr</obj_property>
+      <obj_property name="ObjectShortName">clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/adc_data" type="array">
+      <obj_property name="ElementShortName">adc_data[11:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_data[11:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sample_cnt" type="other">
+      <obj_property name="ElementShortName">sample_cnt</obj_property>
+      <obj_property name="ObjectShortName">sample_cnt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sout" type="logic">
+      <obj_property name="ElementShortName">sout</obj_property>
+      <obj_property name="ObjectShortName">sout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/led_busy" type="logic">
+      <obj_property name="ElementShortName">led_busy</obj_property>
+      <obj_property name="ObjectShortName">led_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/clkPeriod" type="other">
+      <obj_property name="ElementShortName">clkPeriod</obj_property>
+      <obj_property name="ObjectShortName">clkPeriod</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/ADC_WIDTH" type="other">
+      <obj_property name="ElementShortName">ADC_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">ADC_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/SAMPLE_LEN" type="other">
+      <obj_property name="ElementShortName">SAMPLE_LEN</obj_property>
+      <obj_property name="ObjectShortName">SAMPLE_LEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/symb_det_inst/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/symb_det_inst/clr" type="logic">
+      <obj_property name="ElementShortName">clr</obj_property>
+      <obj_property name="ObjectShortName">clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/symb_det_inst/adc_data" type="array">
+      <obj_property name="ElementShortName">adc_data[11:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_data[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/symb_det_inst/symbol_valid" type="logic">
+      <obj_property name="ElementShortName">symbol_valid</obj_property>
+      <obj_property name="ObjectShortName">symbol_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/symb_det_inst/symbol_out" type="array">
+      <obj_property name="ElementShortName">symbol_out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">symbol_out[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/symb_det_inst/signed_adc" type="array">
+      <obj_property name="ElementShortName">signed_adc[11:0]</obj_property>
+      <obj_property name="ObjectShortName">signed_adc[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/symb_det_inst/last_signed_adc" type="array">
+      <obj_property name="ElementShortName">last_signed_adc[11:0]</obj_property>
+      <obj_property name="ObjectShortName">last_signed_adc[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/symb_det_inst/bitty" type="logic">
+      <obj_property name="ElementShortName">bitty</obj_property>
+      <obj_property name="ObjectShortName">bitty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/symb_det_inst/clkcnt" type="array">
+      <obj_property name="ElementShortName">clkcnt[11:0]</obj_property>
+      <obj_property name="ObjectShortName">clkcnt[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/symb_det_inst/zcd" type="logic">
+      <obj_property name="ElementShortName">zcd</obj_property>
+      <obj_property name="ObjectShortName">zcd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/symb_det_inst/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/symb_det_inst/next_state" type="other">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/symb_det_inst/freq_counter" type="array">
+      <obj_property name="ElementShortName">freq_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">freq_counter[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/din" type="array">
+      <obj_property name="ElementShortName">din[2:0]</obj_property>
+      <obj_property name="ObjectShortName">din[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/clr" type="logic">
+      <obj_property name="ElementShortName">clr</obj_property>
+      <obj_property name="ObjectShortName">clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/dout" type="array">
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/dvalid" type="logic">
+      <obj_property name="ElementShortName">dvalid</obj_property>
+      <obj_property name="ObjectShortName">dvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/error" type="logic">
+      <obj_property name="ElementShortName">error</obj_property>
+      <obj_property name="ObjectShortName">error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/next_state" type="other">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/din" type="array">
+      <obj_property name="ElementShortName">din[2:0]</obj_property>
+      <obj_property name="ObjectShortName">din[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/clr" type="logic">
+      <obj_property name="ElementShortName">clr</obj_property>
+      <obj_property name="ObjectShortName">clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/dout" type="array">
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/dvalid" type="logic">
+      <obj_property name="ElementShortName">dvalid</obj_property>
+      <obj_property name="ObjectShortName">dvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/error" type="logic">
+      <obj_property name="ElementShortName">error</obj_property>
+      <obj_property name="ObjectShortName">error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/next_state" type="other">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/number" type="array">
+      <obj_property name="ElementShortName">number[2:0]</obj_property>
+      <obj_property name="ObjectShortName">number[2:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/counter" type="logic">
+      <obj_property name="ElementShortName">counter</obj_property>
+      <obj_property name="ObjectShortName">counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/errorcounter" type="logic">
+      <obj_property name="ElementShortName">errorcounter</obj_property>
+      <obj_property name="ObjectShortName">errorcounter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/startcounter" type="logic">
+      <obj_property name="ElementShortName">startcounter</obj_property>
+      <obj_property name="ObjectShortName">startcounter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/sim_top_inst/mcdecoder_inst/tempresult" type="array">
+      <obj_property name="ElementShortName">tempresult[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tempresult[7:0]</obj_property>
+   </wvobject>
+</wave_config>
