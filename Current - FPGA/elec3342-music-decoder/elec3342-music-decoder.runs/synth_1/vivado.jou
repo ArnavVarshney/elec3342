@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Nov 29 08:57:42 2023
+# Process ID: 3928
+# Current directory: D:/elec3342/Current/elec3342-music-decoder/elec3342-music-decoder.runs/synth_1
+# Command line: vivado.exe -log sys_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sys_top.tcl
+# Log file: D:/elec3342/Current/elec3342-music-decoder/elec3342-music-decoder.runs/synth_1/sys_top.vds
+# Journal file: D:/elec3342/Current/elec3342-music-decoder/elec3342-music-decoder.runs/synth_1\vivado.jou
+# Running On: Arnav-G15, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 16, Host memory: 25132 MB
+#-----------------------------------------------------------
+source sys_top.tcl -notrace

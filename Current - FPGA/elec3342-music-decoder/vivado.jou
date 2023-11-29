@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Nov 29 08:56:46 2023
+# Process ID: 8808
+# Current directory: D:/elec3342/Current/elec3342-music-decoder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14060 D:\elec3342\Current\elec3342-music-decoder\elec3342-music-decoder.xpr
+# Log file: D:/elec3342/Current/elec3342-music-decoder/vivado.log
+# Journal file: D:/elec3342/Current/elec3342-music-decoder\vivado.jou
+# Running On: Arnav-G15, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 16, Host memory: 25132 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/elec3342/Current/elec3342-music-decoder/elec3342-music-decoder.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/elec3342/Current/elec3342-music-decoder/elec3342-music-decoder.runs/impl_1/sys_top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/elec3342/Current/elec3342-music-decoder/elec3342-music-decoder.runs/impl_1/sys_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
