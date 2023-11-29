@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/elec3342/Current/elec3342-music-decoder/elec3342-music-decoder.runs/synth_1'
+HD_PWD='D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -41,4 +41,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log sys_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source sys_top.tcl
+EAStep vivado -log sim_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source sim_top.tcl

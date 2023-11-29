@@ -18,7 +18,7 @@ ARCHITECTURE Behavioral OF symb_det IS
     SIGNAL note_clk         : std_logic := '0';
     SIGNAL last_note_clk    : std_logic := '0';
     SIGNAL note_clk_counter : unsigned(11 DOWNTO 0) := x"000";
-    TYPE state_type IS (St_WAITING, St_LISTENING, St_COUNTING, St_WRITING);
+    TYPE state_type IS (St_WAITING, St_LISTENING, St_COUNTING, St_SENDING);
     SIGNAL state, next_state : state_type := St_WAITING;
     SIGNAL freq_counter      : unsigned(7 DOWNTO 0);
 BEGIN
@@ -61,9 +61,9 @@ BEGIN
                 END IF;
             WHEN St_COUNTING =>
                 IF signed_adc_last < 0 AND signed_adc > 0 THEN
-                    next_state <= St_WRITING;
+                    next_state <= St_SENDING;
                 END IF;
-            WHEN St_WRITING =>
+            WHEN St_SENDING =>
                 next_state <= St_WAITING;
             WHEN OTHERS =>
                 NULL;
@@ -73,7 +73,7 @@ BEGIN
         VARIABLE count_int : INTEGER;
     BEGIN
         symbol_valid <= '0';
-        IF state = St_WRITING THEN
+        IF state = St_SENDING THEN
             symbol_valid <= '1';
             count_int := to_integer(freq_counter);
             CASE(count_int) IS
