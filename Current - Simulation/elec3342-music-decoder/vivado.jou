@@ -46,3 +46,4 @@ launch_simulation
 open_wave_config C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg
 source sim_top_tb.tcl
 save_wave_config {C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg}
+close_sim

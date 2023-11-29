@@ -589,3 +589,8 @@ save_wave_config {C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_p
 WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\newest_simuation\startover\elec3342_prj_tmpl\src_files\mcdecoder.vhd:]
 WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\varsh\Downloads\newest_simuation\startover\elec3342_prj_tmpl\src_files\symb_det.vhd:]
 ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 32992 KB (Peak: 32992 KB), Simulation CPU Usage: 25702 ms
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 29 10:09:37 2023...
