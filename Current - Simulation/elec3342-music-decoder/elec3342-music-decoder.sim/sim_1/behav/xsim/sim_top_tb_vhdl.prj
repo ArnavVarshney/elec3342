@@ -1,10 +1,10 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
-"../../../../src_files/mcdecoder.vhd" \
-"../../../../src_files/myuart.vhd" \
-"../../../../src_files/sim_top.vhd" \
-"../../../../src_files/symb_det.vhd" \
-"../../../../tb/sim_top_tb.vhd" \
+"C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/mcdecoder.vhd" \
+"C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/myuart.vhd" \
+"C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/sim_top.vhd" \
+"C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/symb_det.vhd" \
+"C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/tb/sim_top_tb.vhd" \
 
 # Do not sort compile order
 nosort
