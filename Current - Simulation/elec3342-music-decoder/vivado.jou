@@ -25,3 +25,24 @@ relaunch_sim
 run 10 ms
 save_wave_config {C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg}
 save_wave_config {C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg}
+save_wave_config {C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg}
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+save_wave_config {C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg}
+save_wave_config {C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg}
+save_wave_config {C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg
+source sim_top_tb.tcl
+run 10 ms
+relaunch_sim
+run 10 ms
+set_property -name {xsim.simulate.runtime} -value {3250us} -objects [get_filesets sim_1]
+relaunch_sim
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg
+source sim_top_tb.tcl
+save_wave_config {C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg}

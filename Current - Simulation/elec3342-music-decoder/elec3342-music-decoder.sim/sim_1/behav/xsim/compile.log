@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/mcdecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mcdecoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/myuart.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'myuart'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/sim_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sim_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/symb_det.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'symb_det'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/tb/sim_top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sim_top_tb'
