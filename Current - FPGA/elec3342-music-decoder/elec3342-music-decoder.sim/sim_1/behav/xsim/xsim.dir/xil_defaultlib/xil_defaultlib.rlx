@@ -3,7 +3,7 @@
 Oct 13 2023
 20:47:58
 D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sim_1/imports/tb/sim_top_tb.vhd,1701224133,vhdl,,,,sim_top_tb,,,,,,,,
-D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sources_1/imports/rtl/mcdecoder.vhd,1701218213,vhdl,,,,mcdecoder,,,,,,,,
+D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sources_1/imports/rtl/mcdecoder.vhd,1701228291,vhdl,,,,mcdecoder,,,,,,,,
 D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sources_1/imports/rtl/myuart.vhd,1701213668,vhdl,,,,myuart,,,,,,,,
 D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sources_1/imports/rtl/sim_top.vhd,1701192927,vhdl,,,,sim_top,,,,,,,,
-D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sources_1/imports/rtl/symb_det.vhd,1701218323,vhdl,,,,symb_det,,,,,,,,
+D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sources_1/imports/rtl/symb_det.vhd,1701224829,vhdl,,,,symb_det,,,,,,,,

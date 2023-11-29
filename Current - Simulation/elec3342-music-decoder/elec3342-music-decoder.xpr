@@ -7,7 +7,7 @@
 <Project Product="Vivado" Version="7" Minor="65" Path="D:/elec3342/Current - Simulation/elec3342-music-decoder/elec3342-music-decoder.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="d3db017bdb1344ce9c02895bc25c98d8"/>
+    <Option Name="Id" Val="fb1988296b7e49bf926fd71f57ec6095"/>
     <Option Name="Part" Val="xc7a35tcpg236-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -62,20 +62,20 @@
     <Option Name="EnableBDX" Val="FALSE"/>
     <Option Name="DSABoardId" Val="basys3"/>
     <Option Name="FeatureSet" Val="FeatureSet_Classic"/>
-    <Option Name="WTXSimLaunchSim" Val="103"/>
+    <Option Name="WTXSimLaunchSim" Val="62"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
     <Option Name="WTVcsLaunchSim" Val="0"/>
     <Option Name="WTRivieraLaunchSim" Val="0"/>
     <Option Name="WTActivehdlLaunchSim" Val="0"/>
-    <Option Name="WTXSimExportSim" Val="1"/>
-    <Option Name="WTModelSimExportSim" Val="1"/>
-    <Option Name="WTQuestaExportSim" Val="1"/>
-    <Option Name="WTIesExportSim" Val="1"/>
-    <Option Name="WTVcsExportSim" Val="1"/>
-    <Option Name="WTRivieraExportSim" Val="1"/>
-    <Option Name="WTActivehdlExportSim" Val="1"/>
+    <Option Name="WTXSimExportSim" Val="2"/>
+    <Option Name="WTModelSimExportSim" Val="2"/>
+    <Option Name="WTQuestaExportSim" Val="2"/>
+    <Option Name="WTIesExportSim" Val="0"/>
+    <Option Name="WTVcsExportSim" Val="2"/>
+    <Option Name="WTRivieraExportSim" Val="2"/>
+    <Option Name="WTActivehdlExportSim" Val="2"/>
     <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
     <Option Name="XSimRadix" Val="hex"/>
     <Option Name="XSimTimeUnit" Val="ns"/>
@@ -93,57 +93,61 @@
   <FileSets Version="1" Minor="32">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/mcdecoder.vhd">
+      <File Path="$PSRCDIR/sources_1/imports/rtl/mcdecoder.vhd">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../e3342-music-decoder-master/src/rtl/mcdecoder.vhd"/>
+          <Attr Name="ImportTime" Val="1701095665"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/myuart.vhd">
+      <File Path="$PSRCDIR/sources_1/imports/rtl/myuart.vhd">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../e3342-music-decoder-master/src/rtl/myuart.vhd"/>
+          <Attr Name="ImportTime" Val="1669616357"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/symb_det.vhd">
+      <File Path="$PSRCDIR/sources_1/imports/rtl/symb_det.vhd">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../e3342-music-decoder-master/src/rtl/symb_det.vhd"/>
+          <Attr Name="ImportTime" Val="1669616357"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/sim_top.vhd">
+      <File Path="$PSRCDIR/sources_1/imports/rtl/sim_top.vhd">
         <FileInfo>
+          <Attr Name="ImportPath" Val="C:/Users/varsh/Downloads/elec3342_prj_tmpl/src_files/sim_top.vhd"/>
+          <Attr Name="ImportTime" Val="1701192927"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0/clk_wiz_0.xci">
+      <File Path="$PSRCDIR/sources_1/imports/rtl/adccntrl.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/elec3342_prj_tmpl.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci"/>
-          <Attr Name="ImportTime" Val="1701166444"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/adccntrl.vhd">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../e3342-music-decoder-master/src/rtl/adccntrl.vhd"/>
+          <Attr Name="ImportTime" Val="1669616357"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/clk_div.vhd">
+      <File Path="$PSRCDIR/sources_1/imports/rtl/clk_div.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../e3342-music-decoder-master/src/rtl/clk_div.vhd"/>
+          <Attr Name="ImportTime" Val="1669616357"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/sys_top.vhd">
+      <File Path="$PSRCDIR/sources_1/imports/rtl/sys_top.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="C:/Users/varsh/Downloads/elec3342_prj_tmpl/src_files/sys_top.vhd"/>
+          <Attr Name="ImportTime" Val="1701192904"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -155,8 +159,10 @@
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
       <Filter Type="Constrs"/>
-      <File Path="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/xdc/musicdec.xdc">
+      <File Path="$PSRCDIR/constrs_1/imports/xdc/musicdec.xdc">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../e3342-music-decoder-master/src/xdc/musicdec.xdc"/>
+          <Attr Name="ImportTime" Val="1669616357"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
@@ -167,15 +173,24 @@
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
       <Filter Type="Srcs"/>
-      <File Path="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/tb/sim_top_tb.vhd">
+      <File Path="$PSRCDIR/sim_1/imports/tb/sim_top_tb.vhd">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../e3342-music-decoder-master/src/tb/sim_top_tb.vhd"/>
+          <Attr Name="ImportTime" Val="1669616357"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/tb/info_wave.txt"/>
-      <File Path="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg">
+      <File Path="$PSRCDIR/sim_1/imports/tb/info_wave.txt">
         <FileInfo>
+          <Attr Name="ImportPath" Val="C:/Users/varsh/Downloads/elec3342_prj_tmpl/tb/info_wave.txt"/>
+          <Attr Name="ImportTime" Val="1701229498"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/elec3342-music-decoder/sim_top_tb_behav.wcfg">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/sim_top_tb_behav.wcfg"/>
+          <Attr Name="ImportTime" Val="1701224730"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
@@ -191,15 +206,41 @@
         <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
         <Option Name="PamPseudoTop" Val="pseudo_tb"/>
         <Option Name="SrcSet" Val="sources_1"/>
-        <Option Name="XSimWcfgFile" Val="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/sim_top_tb_behav.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/sim_top_tb_behav.wcfg"/>
         <Option Name="Incremental" Val="0"/>
-        <Option Name="xsim.simulate.runtime" Val="3250us"/>
+        <Option Name="xsim.simulate.runtime" Val="4865us"/>
       </Config>
     </FileSet>
     <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
       <Filter Type="Utils"/>
+      <File Path="$PSRCDIR/utils_1/imports/synth_1/sys_top.dcp">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/utils_1/imports/synth_1/sys_top.dcp"/>
+          <Attr Name="ImportTime" Val="1701218366"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedInSteps" Val="synth_1"/>
+          <Attr Name="AutoDcp" Val="1"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="clk_wiz_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/clk_wiz_0" RelGenDir="$PGENDIR/clk_wiz_0">
+      <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0/clk_wiz_0.xci">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci"/>
+          <Attr Name="ImportTime" Val="1701098798"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="clk_wiz_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
   </FileSets>
@@ -222,35 +263,58 @@
     </Simulator>
   </Simulators>
   <Runs Version="1" Minor="21">
-    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" IncrementalCheckpoint="$PSRCDIR/utils_1/imports/synth_1/sys_top.dcp" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2019"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="clk_wiz_0_synth_1" Type="Ft3:Synth" SrcSet="clk_wiz_0" Part="xc7a35tcpg236-1" ConstrsSet="clk_wiz_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/clk_wiz_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/clk_wiz_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/clk_wiz_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
     <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1" LaunchOptions="-jobs 16 " AutoRQSDir="$PSRCDIR/utils_1/imports/impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
         <Step Id="place_design"/>
         <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design" EnableStepBool="1"/>
+        <Step Id="phys_opt_design"/>
         <Step Id="route_design"/>
         <Step Id="post_route_phys_opt_design"/>
         <Step Id="write_bitstream"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2019"/>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="clk_wiz_0_impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="clk_wiz_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="clk_wiz_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/clk_wiz_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/clk_wiz_0_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>

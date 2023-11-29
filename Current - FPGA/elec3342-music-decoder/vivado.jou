@@ -127,3 +127,60 @@ refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
 reset_run synth_1
 launch_runs impl_1 -to_step write_bitstream -jobs 16
 wait_on_run impl_1
+export_ip_user_files -of_objects  [get_files {{D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sim_1/imports/tb/info_wave.txt}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sim_1/imports/tb/info_wave.txt}}
+file delete -force {D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sim_1/imports/tb/info_wave.txt}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse C:/Users/varsh/Downloads/elec3342_prj_tmpl/tb/info_wave.txt
+launch_simulation
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sim_top [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sim_top_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+open_wave_config {D:/elec3342/Current - FPGA/elec3342-music-decoder/sim_top_tb_behav.wcfg}
+source sim_top_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config {D:/elec3342/Current - FPGA/elec3342-music-decoder/sim_top_tb_behav.wcfg}
+source sim_top_tb.tcl
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+reset_run synth_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sys_top [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sys_top [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+upgrade_ip -srcset clk_wiz_0 -vlnv xilinx.com:ip:clk_wiz:6.0 [get_ips  clk_wiz_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips clk_wiz_0] -no_script -sync -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.runs/impl_1/sys_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

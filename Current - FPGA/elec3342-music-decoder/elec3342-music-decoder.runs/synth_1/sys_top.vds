@@ -3,8 +3,8 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Wed Nov 29 11:25:04 2023
-# Process ID: 22512
+# Start of session at: Wed Nov 29 11:56:40 2023
+# Process ID: 15424
 # Current directory: D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.runs/synth_1
 # Command line: vivado.exe -log sys_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sys_top.tcl
 # Log file: D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.runs/synth_1/sys_top.vds
@@ -17,8 +17,6 @@ INFO: [Vivado 12-5825] Read reference checkpoint from D:/elec3342/Current - FPGA
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
 Command: synth_design -top sys_top -part xc7a35tcpg236-1
 Starting synth_design
-INFO: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
-* This IP has board specific outputs. Current project board 'unset' and the board 'digilentinc.com:basys3:part0:1.2' used to customize the IP 'clk_wiz_0' do not match.
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
@@ -26,14 +24,14 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 11116
+INFO: [Synth 8-7075] Helper process launched with PID 13364
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1330.258 ; gain = 440.605
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1329.309 ; gain = 439.727
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'sys_top' [D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sources_1/imports/rtl/sys_top.vhd:46]
 WARNING: [Synth 8-5640] Port 'reset' is missing in component declaration [D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sources_1/imports/rtl/sys_top.vhd:55]
-INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.runs/synth_1/.Xil/Vivado-22512-Arnav-G15/realtime/clk_wiz_0_stub.vhdl:6' bound to instance 'clk_wiz_inst' of component 'clk_wiz_0' [D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sources_1/imports/rtl/sys_top.vhd:110]
-INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.runs/synth_1/.Xil/Vivado-22512-Arnav-G15/realtime/clk_wiz_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.runs/synth_1/.Xil/Vivado-15424-Arnav-G15/realtime/clk_wiz_0_stub.vhdl:6' bound to instance 'clk_wiz_inst' of component 'clk_wiz_0' [D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sources_1/imports/rtl/sys_top.vhd:110]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.runs/synth_1/.Xil/Vivado-15424-Arnav-G15/realtime/clk_wiz_0_stub.vhdl:16]
 INFO: [Synth 8-3491] module 'clk_div' declared at 'D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sources_1/imports/rtl/clk_div.vhd:36' bound to instance 'clk_div_128_inst' of component 'clk_div' [D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sources_1/imports/rtl/sys_top.vhd:122]
 INFO: [Synth 8-638] synthesizing module 'clk_div' [D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sources_1/imports/rtl/clk_div.vhd:42]
 INFO: [Synth 8-256] done synthesizing module 'clk_div' (0#1) [D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sources_1/imports/rtl/clk_div.vhd:42]
@@ -65,18 +63,18 @@ WARNING: [Synth 8-614] signal 'din_buffer' is read in the process but is not in 
 INFO: [Synth 8-256] done synthesizing module 'myuart' (0#1) [D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sources_1/imports/rtl/myuart.vhd:17]
 INFO: [Synth 8-256] done synthesizing module 'sys_top' (0#1) [D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sources_1/imports/rtl/sys_top.vhd:46]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1442.027 ; gain = 552.375
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1442.141 ; gain = 552.559
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1442.027 ; gain = 552.375
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1442.141 ; gain = 552.559
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1442.027 ; gain = 552.375
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1442.141 ; gain = 552.559
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1442.027 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1442.141 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -89,22 +87,22 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/sys_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1531.758 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1541.262 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1531.758 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1541.262 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1531.758 ; gain = 642.105
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1541.262 ; gain = 651.680
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1531.758 ; gain = 642.105
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1541.262 ; gain = 651.680
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -113,7 +111,7 @@ Applied set_property IO_BUFFER_TYPE = NONE for clk_100m. (constraint file  {d:/e
 Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_100m. (constraint file  {d:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 4).
 Applied set_property KEEP_HIERARCHY = SOFT for clk_wiz_inst. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1531.758 ; gain = 642.105
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1541.262 ; gain = 651.680
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'adccntrl'
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'symb_det'
@@ -153,7 +151,7 @@ WARNING: [Synth 8-327] inferring latch for variable 'busy_reg' [D:/elec3342/Curr
 WARNING: [Synth 8-327] inferring latch for variable 'sout_reg' [D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sources_1/imports/rtl/myuart.vhd:106]
 WARNING: [Synth 8-327] inferring latch for variable 'din_buffer_reg' [D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sources_1/imports/rtl/myuart.vhd:54]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1531.758 ; gain = 642.105
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1541.262 ; gain = 651.680
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -206,25 +204,25 @@ Start Cross Boundary and Area Optimization
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 WARNING: [Synth 8-3332] Sequential element (myuart_inst/din_buffer_reg[0]) is unused and will be removed from module sys_top.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1531.758 ; gain = 642.105
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1541.262 ; gain = 651.680
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1531.758 ; gain = 642.105
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1541.262 ; gain = 651.680
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1531.758 ; gain = 642.105
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1541.262 ; gain = 651.680
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1531.758 ; gain = 642.105
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1541.262 ; gain = 651.680
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -243,37 +241,37 @@ Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 CRITICAL WARNING: [Synth 8-4442] BlackBox module clk_wiz_inst has unconnected pin reset
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1531.758 ; gain = 642.105
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1541.262 ; gain = 651.680
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1531.758 ; gain = 642.105
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1541.262 ; gain = 651.680
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1531.758 ; gain = 642.105
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1541.262 ; gain = 651.680
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1531.758 ; gain = 642.105
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1541.262 ; gain = 651.680
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1531.758 ; gain = 642.105
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1541.262 ; gain = 651.680
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1531.758 ; gain = 642.105
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1541.262 ; gain = 651.680
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -308,29 +306,30 @@ Report Cell Usage:
 |16    |OBUF           |     4|
 +------+---------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1531.758 ; gain = 642.105
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1541.262 ; gain = 651.680
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 1 critical warnings and 7 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 1531.758 ; gain = 552.375
-Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1531.758 ; gain = 642.105
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 1541.262 ; gain = 552.559
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1541.262 ; gain = 651.680
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1531.758 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1541.262 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 27 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1531.758 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1541.262 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 21 instances were transformed.
   LD => LDCE: 21 instances
 
 Synth Design complete | Checksum: b762e7d7
 INFO: [Common 17-83] Releasing license: Synthesis
-49 Infos, 20 Warnings, 1 Critical Warnings and 0 Errors encountered.
+48 Infos, 20 Warnings, 1 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1531.758 ; gain = 1033.715
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.statsThreshold
 INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1531.758 ; gain = 0.000
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1541.262 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.runs/synth_1/sys_top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file sys_top_utilization_synth.rpt -pb sys_top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed Nov 29 11:25:37 2023...
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 29 11:57:12 2023...

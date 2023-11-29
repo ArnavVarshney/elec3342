@@ -1,10 +1,10 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
-"C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/mcdecoder.vhd" \
-"C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/myuart.vhd" \
-"C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/sim_top.vhd" \
-"C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/symb_det.vhd" \
-"C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/tb/sim_top_tb.vhd" \
+"../../../../elec3342-music-decoder.srcs/sources_1/imports/rtl/mcdecoder.vhd" \
+"../../../../elec3342-music-decoder.srcs/sources_1/imports/rtl/myuart.vhd" \
+"../../../../elec3342-music-decoder.srcs/sources_1/imports/rtl/sim_top.vhd" \
+"../../../../elec3342-music-decoder.srcs/sources_1/imports/rtl/symb_det.vhd" \
+"../../../../elec3342-music-decoder.srcs/sim_1/imports/tb/sim_top_tb.vhd" \
 
 # Do not sort compile order
 nosort

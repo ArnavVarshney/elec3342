@@ -1,77 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1701222777">
-  <File Type="PA-TCL" Name="sim_top.tcl"/>
-  <File Type="REPORTS-TCL" Name="sim_top_reports.tcl"/>
-  <File Type="RDS-RDS" Name="sim_top.vds"/>
-  <File Type="RDS-UTIL" Name="sim_top_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="sim_top_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="sim_top.dcp"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1701228301" LaunchIncrCheckpoint="$PPRDIR/../../Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/utils_1/imports/synth_1/sys_top.dcp">
+  <File Type="PA-TCL" Name="sys_top.tcl"/>
+  <File Type="REPORTS-TCL" Name="sys_top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="sys_top.vds"/>
+  <File Type="RDS-UTIL" Name="sys_top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="sys_top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="sys_top.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/mcdecoder.vhd">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/adccntrl.vhd">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../e3342-music-decoder-master/src/rtl/adccntrl.vhd"/>
+        <Attr Name="ImportTime" Val="1669616357"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/myuart.vhd">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/clk_div.vhd">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../e3342-music-decoder-master/src/rtl/clk_div.vhd"/>
+        <Attr Name="ImportTime" Val="1669616357"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/symb_det.vhd">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/mcdecoder.vhd">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../e3342-music-decoder-master/src/rtl/mcdecoder.vhd"/>
+        <Attr Name="ImportTime" Val="1701095665"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/sim_top.vhd">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/myuart.vhd">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../e3342-music-decoder-master/src/rtl/myuart.vhd"/>
+        <Attr Name="ImportTime" Val="1669616357"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0/clk_wiz_0.xci">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/symb_det.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../e3342-music-decoder-master/src/rtl/symb_det.vhd"/>
+        <Attr Name="ImportTime" Val="1669616357"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/sys_top.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/varsh/Downloads/elec3342_prj_tmpl/src_files/sys_top.vhd"/>
+        <Attr Name="ImportTime" Val="1701192904"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/sim_top.vhd">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="ImportPath" Val="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/elec3342_prj_tmpl.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci"/>
-        <Attr Name="ImportTime" Val="1701166444"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/adccntrl.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/clk_div.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/src_files/sys_top.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="C:/Users/varsh/Downloads/elec3342_prj_tmpl/src_files/sim_top.vhd"/>
+        <Attr Name="ImportTime" Val="1701192927"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="sim_top"/>
+      <Option Name="TopModule" Val="sys_top"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/xdc/musicdec.xdc">
+    <File Path="$PSRCDIR/constrs_1/imports/xdc/musicdec.xdc">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../e3342-music-decoder-master/src/xdc/musicdec.xdc"/>
+        <Attr Name="ImportTime" Val="1669616357"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>
@@ -82,12 +86,23 @@
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
     <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/sys_top.dcp">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/utils_1/imports/synth_1/sys_top.dcp"/>
+        <Attr Name="ImportTime" Val="1701218366"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
     <Step Id="synth_design"/>
   </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
 </GenRun>

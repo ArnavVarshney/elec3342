@@ -1,2 +1,11 @@
 Time resolution is 1 ps
-INFO: xsimkernel Simulation Memory Usage: 32992 KB (Peak: 32992 KB), Simulation CPU Usage: 25702 ms
+Error: File info_wave.txt is already at the end of file, nothing to read
+Time: 0 ps  Iteration: 0  Process: /sim_top_tb/proc_init_array  File: D:/elec3342/Current - Simulation/elec3342-music-decoder/elec3342-music-decoder.srcs/sim_1/imports/tb/sim_top_tb.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 0 ps  Iteration: 0  Process: /sim_top_tb/proc_init_array  File: D:/elec3342/Current - Simulation/elec3342-music-decoder/elec3342-music-decoder.srcs/sim_1/imports/tb/sim_top_tb.vhd
+ERROR: File info_wave.txt could not be opened.
+Time: 0 ps  Iteration: 0  Process: /sim_top_tb/proc_init_array
+  File: D:/elec3342/Current - Simulation/elec3342-music-decoder/elec3342-music-decoder.srcs/sim_1/imports/tb/sim_top_tb.vhd
+
+HDL Line: D:/elec3342/Current - Simulation/elec3342-music-decoder/elec3342-music-decoder.srcs/sim_1/imports/tb/sim_top_tb.vhd:87
+INFO: xsimkernel Simulation Memory Usage: 25592 KB (Peak: 25592 KB), Simulation CPU Usage: 25218 ms

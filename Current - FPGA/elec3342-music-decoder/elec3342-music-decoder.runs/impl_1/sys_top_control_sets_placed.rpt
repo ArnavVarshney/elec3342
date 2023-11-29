@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date         : Wed Nov 29 11:26:07 2023
+| Date         : Wed Nov 29 11:57:51 2023
 | Host         : Arnav-G15 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file sys_top_control_sets_placed.rpt
 | Design       : sys_top
@@ -77,11 +77,11 @@ Table of Contents
 |  clk_BUFG                              |                                              |                                            |                2 |              2 |         1.00 |
 |  symb_det_inst/Q[0]                    |                                              |                                            |                2 |              3 |         1.50 |
 |  clk_BUFG                              |                                              | clr_IBUF                                   |                2 |              3 |         1.50 |
-|  clk_BUFG                              | myuart_inst/bitposition0                     | myuart_inst/baudcounter[3]_i_1_n_0         |                1 |              4 |         4.00 |
 |  clk_BUFG                              | myuart_inst/state[3]_i_1_n_0                 | clr_IBUF                                   |                2 |              4 |         2.00 |
-|  clk_BUFG                              | symb_det_inst/FSM_onehot_state[3]_i_1__0_n_0 | clr_IBUF                                   |                1 |              4 |         4.00 |
+|  clk_BUFG                              | myuart_inst/bitposition0                     | myuart_inst/baudcounter[3]_i_1_n_0         |                1 |              4 |         4.00 |
 |  clk_BUFG                              | symb_det_inst/p_0_in__0                      |                                            |                3 |              4 |         1.33 |
 |  clk_BUFG                              | symb_det_inst/p_0_in__0                      | myuart_inst/baudcounter[3]_i_1_n_0         |                1 |              4 |         4.00 |
+|  clk_BUFG                              | symb_det_inst/FSM_onehot_state[3]_i_1__0_n_0 | clr_IBUF                                   |                1 |              4 |         4.00 |
 |  clk_wiz_inst/inst/clk_12288k          | adc_ctrl_inst/FSM_onehot_state[3]_i_1_n_0    | clr_IBUF                                   |                1 |              4 |         4.00 |
 |  clk_BUFG                              | symb_det_inst/E[0]                           |                                            |                3 |              6 |         2.00 |
 |  clk_wiz_inst/inst/clk_12288k          |                                              | clr_IBUF                                   |                3 |              7 |         2.33 |

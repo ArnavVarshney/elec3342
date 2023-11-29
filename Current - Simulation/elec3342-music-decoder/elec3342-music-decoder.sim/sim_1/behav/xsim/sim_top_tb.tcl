@@ -8,4 +8,4 @@ if { [string length $curr_wave] == 0 } {
   }
 }
 
-run 3250us
+run 4865us

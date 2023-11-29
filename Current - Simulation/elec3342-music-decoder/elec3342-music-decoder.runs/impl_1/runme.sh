@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/varsh/Downloads/newest_simuation/startover/elec3342_prj_tmpl/elec3342_prj_tmpl.runs/impl_1'
+HD_PWD='D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -43,6 +43,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
-EAStep vivado -log sim_top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source sim_top.tcl -notrace
+EAStep vivado -log sys_top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source sys_top.tcl -notrace
 
 
