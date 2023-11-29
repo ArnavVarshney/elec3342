@@ -7,7 +7,6 @@ ENTITY mcdecoder IS
 		valid  : IN std_logic;
 		clr    : IN std_logic;
 		clk    : IN std_logic;
-		led    : OUT std_logic;
 		dout   : OUT std_logic_vector(7 DOWNTO 0);
 		dvalid : OUT std_logic;
 		error  : OUT std_logic
@@ -16,23 +15,22 @@ END mcdecoder;
 ARCHITECTURE Behavioral OF mcdecoder IS
 	TYPE state_type IS (St_RESET, St_ERROR, St_STARTING, St_LISTENING, St_WRITING, St_ENDING);
 	SIGNAL state, next_state : state_type := St_RESET;
-	SIGNAL valid_buffer      : std_logic;
-	SIGNAL note_byte         : std_logic_vector(5 DOWNTO 0);
+	SIGNAL prev_valid        : std_logic;
+	SIGNAL two_notes         : std_logic_vector(5 DOWNTO 0);
 	SIGNAL note_order        : std_logic := '0';
-	SIGNAL next_note_order   : std_logic := '1';
+	SIGNAL expected_note     : std_logic := '1';
 BEGIN
-	led <= note_order;
 	sync_process : PROCESS (clk, clr)
 	BEGIN
 		IF clr = '1' THEN
 			state <= St_RESET;
 		ELSIF rising_edge(clk) THEN
-			valid_buffer <= valid;
-			state        <= next_state;
+			prev_valid <= valid;
+			state      <= next_state;
 			IF valid = '1' THEN
-				note_byte(5 DOWNTO 3) <= note_byte(2 DOWNTO 0);
-				note_byte(2 DOWNTO 0) <= din;
-				note_order            <= next_note_order;
+				two_notes(5 DOWNTO 3) <= two_notes(2 DOWNTO 0);
+				two_notes(2 DOWNTO 0) <= din;
+				note_order            <= expected_note;
 			END IF;
 		END IF;
 	END PROCESS;
@@ -40,14 +38,14 @@ BEGIN
 		VARIABLE next_byte : std_logic_vector(5 DOWNTO 0);
 	BEGIN
 		IF state = St_RESET THEN
-			next_note_order <= '0';
+			expected_note <= '0';
 		ELSE
-			next_note_order <= note_order;
-			IF (valid = '1' AND valid_buffer = '0') THEN
-				next_note_order <= NOT note_order;
+			expected_note <= note_order;
+			IF (valid = '1' AND prev_valid = '0') THEN
+				expected_note <= NOT note_order;
 			END IF;
 		END IF;
-		next_byte := note_byte(2 DOWNTO 0) & din;
+		next_byte := two_notes(2 DOWNTO 0) & din;
 		next_state <= state;
 		CASE(state) IS
 			WHEN St_RESET =>
@@ -113,7 +111,7 @@ BEGIN
 				NULL;
 			WHEN St_WRITING =>
 				dvalid <= '1';
-				CASE(note_byte) IS
+				CASE(two_notes) IS
 					WHEN "001010" =>
 						dout <= "01000010";
 					WHEN "001011" =>

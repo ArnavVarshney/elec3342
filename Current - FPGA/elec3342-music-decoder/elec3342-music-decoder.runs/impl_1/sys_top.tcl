@@ -127,6 +127,7 @@ set rc [catch {
   set_param checkpoint.writeSynthRtdsInDcp 1
   set_param chipscope.maxJobs 4
   set_param synth.incrementalSynthesisCache {D:/elec3342/Current - FPGA/elec3342-music-decoder/.Xil/Vivado-13184-Arnav-G15/incrSyn}
+  set_param xicom.use_bs_reader 1
   set_param runs.launchOptions { -jobs 16  }
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7a35tcpg236-1
