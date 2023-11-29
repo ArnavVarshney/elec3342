@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/mcdecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mcdecoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/myuart.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'myuart'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/sim_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sim_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sources_1/imports/rtl/symb_det.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'symb_det'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/varsh/Downloads/e3342-music-decoder-master/e3342-music-decoder-master.srcs/sim_1/imports/tb/sim_top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sim_top_tb'
