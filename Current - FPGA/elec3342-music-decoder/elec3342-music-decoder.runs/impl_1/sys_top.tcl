@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.runs/impl_1/sim_top.tcl"
+  variable script "D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.runs/impl_1/sys_top.tcl"
   variable category "vivado_impl"
 }
 
@@ -138,9 +138,11 @@ OPTRACE "set parameters" START { }
   set_property parent.project_path {D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.xpr} [current_project]
   set_property ip_output_repo {{D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.cache/ip}} [current_project]
   set_property ip_cache_permissions {read write} [current_project]
+  set_property XPM_LIBRARIES XPM_CDC [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet {{D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.runs/synth_1/sim_top.dcp}}
+  add_files -quiet {{D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.runs/synth_1/sys_top.dcp}}
+  read_ip -quiet {{D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}
 OPTRACE "read constraints: implementation" START { }
   read_xdc {{D:/elec3342/Current - FPGA/elec3342-music-decoder/elec3342-music-decoder.srcs/constrs_1/imports/xdc/musicdec.xdc}}
 OPTRACE "read constraints: implementation" END { }
@@ -148,7 +150,7 @@ OPTRACE "read constraints: implementation_pre" START { }
 OPTRACE "read constraints: implementation_pre" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }
-  link_design -top sim_top -part xc7a35tcpg236-1 
+  link_design -top sys_top -part xc7a35tcpg236-1 
 OPTRACE "link_design" END { }
 OPTRACE "gray box cells" START { }
 OPTRACE "gray box cells" END { }
@@ -180,10 +182,10 @@ OPTRACE "opt_design" END { }
 OPTRACE "read constraints: opt_design_post" START { }
 OPTRACE "read constraints: opt_design_post" END { }
 OPTRACE "opt_design reports" START { REPORT }
-  create_report "impl_1_opt_report_drc_0" "report_drc -file sim_top_drc_opted.rpt -pb sim_top_drc_opted.pb -rpx sim_top_drc_opted.rpx"
+  create_report "impl_1_opt_report_drc_0" "report_drc -file sys_top_drc_opted.rpt -pb sys_top_drc_opted.pb -rpx sys_top_drc_opted.rpx"
 OPTRACE "opt_design reports" END { }
 OPTRACE "Opt Design: write_checkpoint" START { CHECKPOINT }
-  write_checkpoint -force sim_top_opt.dcp
+  write_checkpoint -force sys_top_opt.dcp
 OPTRACE "Opt Design: write_checkpoint" END { }
   close_msg_db -file opt_design.pb
 } RESULT]
@@ -214,12 +216,12 @@ OPTRACE "place_design" END { }
 OPTRACE "read constraints: place_design_post" START { }
 OPTRACE "read constraints: place_design_post" END { }
 OPTRACE "place_design reports" START { REPORT }
-  create_report "impl_1_place_report_io_0" "report_io -file sim_top_io_placed.rpt"
-  create_report "impl_1_place_report_utilization_0" "report_utilization -file sim_top_utilization_placed.rpt -pb sim_top_utilization_placed.pb"
-  create_report "impl_1_place_report_control_sets_0" "report_control_sets -verbose -file sim_top_control_sets_placed.rpt"
+  create_report "impl_1_place_report_io_0" "report_io -file sys_top_io_placed.rpt"
+  create_report "impl_1_place_report_utilization_0" "report_utilization -file sys_top_utilization_placed.rpt -pb sys_top_utilization_placed.pb"
+  create_report "impl_1_place_report_control_sets_0" "report_control_sets -verbose -file sys_top_control_sets_placed.rpt"
 OPTRACE "place_design reports" END { }
 OPTRACE "Place Design: write_checkpoint" START { CHECKPOINT }
-  write_checkpoint -force sim_top_placed.dcp
+  write_checkpoint -force sys_top_placed.dcp
 OPTRACE "Place Design: write_checkpoint" END { }
   close_msg_db -file place_design.pb
 } RESULT]
@@ -247,7 +249,7 @@ OPTRACE "read constraints: phys_opt_design_post" END { }
 OPTRACE "phys_opt_design report" START { REPORT }
 OPTRACE "phys_opt_design report" END { }
 OPTRACE "Post-Place Phys Opt Design: write_checkpoint" START { CHECKPOINT }
-  write_checkpoint -force sim_top_physopt.dcp
+  write_checkpoint -force sys_top_physopt.dcp
 OPTRACE "Post-Place Phys Opt Design: write_checkpoint" END { }
   close_msg_db -file phys_opt_design.pb
 } RESULT]
@@ -273,17 +275,17 @@ OPTRACE "route_design" END { }
 OPTRACE "read constraints: route_design_post" START { }
 OPTRACE "read constraints: route_design_post" END { }
 OPTRACE "route_design reports" START { REPORT }
-  create_report "impl_1_route_report_drc_0" "report_drc -file sim_top_drc_routed.rpt -pb sim_top_drc_routed.pb -rpx sim_top_drc_routed.rpx"
-  create_report "impl_1_route_report_methodology_0" "report_methodology -file sim_top_methodology_drc_routed.rpt -pb sim_top_methodology_drc_routed.pb -rpx sim_top_methodology_drc_routed.rpx"
-  create_report "impl_1_route_report_power_0" "report_power -file sim_top_power_routed.rpt -pb sim_top_power_summary_routed.pb -rpx sim_top_power_routed.rpx"
-  create_report "impl_1_route_report_route_status_0" "report_route_status -file sim_top_route_status.rpt -pb sim_top_route_status.pb"
-  create_report "impl_1_route_report_timing_summary_0" "report_timing_summary -max_paths 10 -report_unconstrained -file sim_top_timing_summary_routed.rpt -pb sim_top_timing_summary_routed.pb -rpx sim_top_timing_summary_routed.rpx -warn_on_violation "
-  create_report "impl_1_route_report_incremental_reuse_0" "report_incremental_reuse -file sim_top_incremental_reuse_routed.rpt"
-  create_report "impl_1_route_report_clock_utilization_0" "report_clock_utilization -file sim_top_clock_utilization_routed.rpt"
-  create_report "impl_1_route_report_bus_skew_0" "report_bus_skew -warn_on_violation -file sim_top_bus_skew_routed.rpt -pb sim_top_bus_skew_routed.pb -rpx sim_top_bus_skew_routed.rpx"
+  create_report "impl_1_route_report_drc_0" "report_drc -file sys_top_drc_routed.rpt -pb sys_top_drc_routed.pb -rpx sys_top_drc_routed.rpx"
+  create_report "impl_1_route_report_methodology_0" "report_methodology -file sys_top_methodology_drc_routed.rpt -pb sys_top_methodology_drc_routed.pb -rpx sys_top_methodology_drc_routed.rpx"
+  create_report "impl_1_route_report_power_0" "report_power -file sys_top_power_routed.rpt -pb sys_top_power_summary_routed.pb -rpx sys_top_power_routed.rpx"
+  create_report "impl_1_route_report_route_status_0" "report_route_status -file sys_top_route_status.rpt -pb sys_top_route_status.pb"
+  create_report "impl_1_route_report_timing_summary_0" "report_timing_summary -max_paths 10 -report_unconstrained -file sys_top_timing_summary_routed.rpt -pb sys_top_timing_summary_routed.pb -rpx sys_top_timing_summary_routed.rpx -warn_on_violation "
+  create_report "impl_1_route_report_incremental_reuse_0" "report_incremental_reuse -file sys_top_incremental_reuse_routed.rpt"
+  create_report "impl_1_route_report_clock_utilization_0" "report_clock_utilization -file sys_top_clock_utilization_routed.rpt"
+  create_report "impl_1_route_report_bus_skew_0" "report_bus_skew -warn_on_violation -file sys_top_bus_skew_routed.rpt -pb sys_top_bus_skew_routed.pb -rpx sys_top_bus_skew_routed.rpx"
 OPTRACE "route_design reports" END { }
 OPTRACE "Route Design: write_checkpoint" START { CHECKPOINT }
-  write_checkpoint -force sim_top_routed.dcp
+  write_checkpoint -force sys_top_routed.dcp
 OPTRACE "Route Design: write_checkpoint" END { }
 OPTRACE "route_design misc" START { }
   close_msg_db -file route_design.pb
@@ -291,7 +293,7 @@ OPTRACE "route_design misc" START { }
 if {$rc} {
 OPTRACE "route_design write_checkpoint" START { CHECKPOINT }
 OPTRACE "route_design write_checkpoint" END { }
-  write_checkpoint -force sim_top_routed_error.dcp
+  write_checkpoint -force sys_top_routed_error.dcp
   step_failed route_design
   return -code error $RESULT
 } else {
@@ -309,16 +311,17 @@ set rc [catch {
   create_msg_db write_bitstream.pb
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }
-  catch { write_mem_info -force -no_partial_mmi sim_top.mmi }
+  set_property XPM_LIBRARIES XPM_CDC [current_project]
+  catch { write_mem_info -force -no_partial_mmi sys_top.mmi }
 OPTRACE "write_bitstream setup" END { }
 OPTRACE "write_bitstream" START { }
-  write_bitstream -force sim_top.bit 
+  write_bitstream -force sys_top.bit 
 OPTRACE "write_bitstream" END { }
 OPTRACE "write_bitstream misc" START { }
 OPTRACE "read constraints: write_bitstream_post" START { }
 OPTRACE "read constraints: write_bitstream_post" END { }
-  catch {write_debug_probes -quiet -force sim_top}
-  catch {file copy -force sim_top.ltx debug_nets.ltx}
+  catch {write_debug_probes -quiet -force sys_top}
+  catch {file copy -force sys_top.ltx debug_nets.ltx}
   close_msg_db -file write_bitstream.pb
 } RESULT]
 if {$rc} {
